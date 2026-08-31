@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.CycleMatroidForests
+
+#print axioms BooleanAntichainsKernel.cycleMatroidBasesEquivSpanningForests
+#print axioms BooleanAntichainsKernel.cycleMatroidBasesEquivSpanningForests_val
+#print axioms BooleanAntichainsKernel.cycleMatroidBasesEquivSpanningForests_symm_val
+#print axioms BooleanAntichainsKernel.cycleMatroid_spanningForest_count
+#print axioms BooleanAntichainsKernel.graphSpanningForest_card

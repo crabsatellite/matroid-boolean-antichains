@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.MultigraphReachability
+
+#print axioms BooleanAntichainsKernel.graphReachable_iff_support
+#print axioms BooleanAntichainsKernel.graphReachable_equivalence
+#print axioms BooleanAntichainsKernel.graphReachable_mono
+#print axioms BooleanAntichainsKernel.graphWalkComponentEquivSupport
+#print axioms BooleanAntichainsKernel.graphWalkComponentEquivSupport_mk
+#print axioms BooleanAntichainsKernel.graphComponentCount_eq_support
+#print axioms BooleanAntichainsKernel.graphConnectedComponentCount_eq_simplification

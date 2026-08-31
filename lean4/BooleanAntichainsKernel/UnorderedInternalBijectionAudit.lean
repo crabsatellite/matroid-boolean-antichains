@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.UnorderedInternalBijection
+
+#print axioms BooleanAntichainsKernel.bottomAntichainToUnorderedInternal_val
+#print axioms BooleanAntichainsKernel.unorderedInternalToBottomAntichain_val
+#print axioms BooleanAntichainsKernel.bottomAntichainEquivUnorderedInternal

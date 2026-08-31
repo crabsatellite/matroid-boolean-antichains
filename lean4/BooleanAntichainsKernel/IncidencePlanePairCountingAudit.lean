@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.IncidencePlanePairCounting
+
+#print axioms BooleanAntichainsKernel.planeDistinctLines_card
+#print axioms BooleanAntichainsKernel.planeNonincident_at_line_card
+#print axioms BooleanAntichainsKernel.planeNonincidentFlag_card
+#print axioms BooleanAntichainsKernel.planeProperJoinPair_count
+#print axioms BooleanAntichainsKernel.incidencePlane_two_count_lines
+#print axioms BooleanAntichainsKernel.incidencePlane_two_count

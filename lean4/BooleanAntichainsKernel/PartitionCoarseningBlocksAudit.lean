@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.PartitionCoarseningBlocks
+
+#print axioms BooleanAntichainsKernel.partitionCoarseningQuotientEquiv
+#print axioms BooleanAntichainsKernel.partitionCoarseningBlockEquiv
+#print axioms BooleanAntichainsKernel.partitionCoarseningBlockEquiv_blockOf
+#print axioms BooleanAntichainsKernel.partitionCoarseningBlockEquiv_membership
+#print axioms BooleanAntichainsKernel.partitionCoarseningBlockEquiv_union
+#print axioms BooleanAntichainsKernel.partitionCoarsening_blocks_card
+#print axioms BooleanAntichainsKernel.partitionCoarsening_rank_add

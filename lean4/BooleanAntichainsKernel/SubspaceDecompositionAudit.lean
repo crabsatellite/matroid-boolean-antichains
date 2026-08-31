@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.SubspaceDecomposition
+
+#print axioms BooleanAntichainsKernel.subspaceInternalSigmaEquiv
+#print axioms BooleanAntichainsKernel.subspaceInternalSigmaEquiv_commonMeet
+#print axioms BooleanAntichainsKernel.subspaceInternalSigmaEquiv_reconstructed_atom
+#print axioms BooleanAntichainsKernel.OrderedInternalDecomposition.sumLinearEquiv

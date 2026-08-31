@@ -1,0 +1,3 @@
+import BooleanAntichainsKernel.ProductConvolution
+
+#print axioms BooleanAntichainsKernel.productAntichain_count_convolution

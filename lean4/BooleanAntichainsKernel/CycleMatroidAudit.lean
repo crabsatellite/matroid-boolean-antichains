@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.CycleMatroid
+
+#print axioms BooleanAntichainsKernel.cycleMatroid
+#print axioms BooleanAntichainsKernel.cycleMatroid_ground
+#print axioms BooleanAntichainsKernel.cycleMatroid_indep_iff
+#print axioms BooleanAntichainsKernel.cycleMatroid_isBase_iff_maximalForest
+#print axioms BooleanAntichainsKernel.cycleMatroid_indep_card_le
+#check BooleanAntichainsKernel.matroidRank

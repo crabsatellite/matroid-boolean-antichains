@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.UniformRationalFormula
+
+#print axioms BooleanAntichainsKernel.blockProfile_denominator_dvd
+#print axioms BooleanAntichainsKernel.uniformProfileTerm_cast
+#print axioms BooleanAntichainsKernel.uniform_all_size_formula_rational

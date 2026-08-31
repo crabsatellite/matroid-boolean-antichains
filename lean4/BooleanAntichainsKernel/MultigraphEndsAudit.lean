@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.MultigraphEnds
+
+#print axioms BooleanAntichainsKernel.graphEdge_has_vertex_pair
+#print axioms BooleanAntichainsKernel.graphEdgeEnds_eq
+#print axioms BooleanAntichainsKernel.graphEdgeEnds_eq_iff
+#print axioms BooleanAntichainsKernel.graphEdgeEnds_isDiag_iff
+#print axioms BooleanAntichainsKernel.graphEdgeEnds_eq_iff_same_link

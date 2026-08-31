@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.GraphicSimplificationGround
+
+#print axioms BooleanAntichainsKernel.graphSimpleEdge_has_nonloop
+#print axioms BooleanAntichainsKernel.cycleRankOneEquivSimpleEdges
+#print axioms BooleanAntichainsKernel.cycleRankOneEquivSimpleEdges_val
+#print axioms BooleanAntichainsKernel.cycleRankOneSimpleEdge_class_member
+#print axioms BooleanAntichainsKernel.cycleRankOneEquivSimpleEdges_symm_class

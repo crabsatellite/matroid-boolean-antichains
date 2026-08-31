@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.PartitionAntichains
+
+#print axioms BooleanAntichainsKernel.partitionAntichainEquiv
+#print axioms BooleanAntichainsKernel.partitionAntichainEquiv_meet
+#print axioms BooleanAntichainsKernel.partitionAntichain_rankTight_iff
+#print axioms BooleanAntichainsKernel.partitionRankTightEquivMatroid
+#print axioms BooleanAntichainsKernel.partitionRankTight_count_eq_matroid
+#print axioms BooleanAntichainsKernel.partitionCorankEquiv
+#print axioms BooleanAntichainsKernel.partitionRankTight_count_by_blocks

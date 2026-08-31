@@ -1,0 +1,20 @@
+name = "BooleanAntichainsKernel"
+version = "0.1.0"
+keywords = ["finite-lattices", "matroids", "boolean-antichains", "lean4"]
+defaultTargets = ["BooleanAntichainsKernel.PublicationRoot"]
+packagesDir = "p"
+buildDir = "b"
+
+[leanOptions]
+autoImplicit = false
+pp.unicode.fun = true
+warningAsError = true
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "6f6d267d6dab648062ec50502204cf512cd7274f"
+
+[[lean_lib]]
+name = "BooleanAntichainsKernel"
+weakLeanArgs = ["--trust=0"]

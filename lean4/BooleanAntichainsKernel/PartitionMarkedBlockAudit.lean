@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.PartitionMarkedBlock
+
+#print axioms BooleanAntichainsKernel.markedPartitionSigmaEquiv
+#print axioms BooleanAntichainsKernel.markedPartitionInsert_remove
+#print axioms BooleanAntichainsKernel.markedPartitionRemove_insert
+#print axioms BooleanAntichainsKernel.markedPartitionRemovedEquiv
+#print axioms BooleanAntichainsKernel.partitionOptionBlockEquiv
+#print axioms BooleanAntichainsKernel.partition_option_total_split

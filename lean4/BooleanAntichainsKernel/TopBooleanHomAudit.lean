@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.TopBooleanHom
+
+#print axioms BooleanAntichainsKernel.topBooleanHom_mono
+#print axioms BooleanAntichainsKernel.orderedBooleanEquivTopEmbedding
+#print axioms BooleanAntichainsKernel.topBooleanEmbedding_count

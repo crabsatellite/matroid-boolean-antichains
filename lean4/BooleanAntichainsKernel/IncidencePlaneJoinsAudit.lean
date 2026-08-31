@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.IncidencePlaneJoins
+
+#print axioms BooleanAntichainsKernel.incidencePlaneLineFlat_le_iff
+#print axioms BooleanAntichainsKernel.incidencePlane_sup_top_of_rank_two
+#print axioms BooleanAntichainsKernel.incidencePlane_line_sup_line_eq_top_iff
+#print axioms BooleanAntichainsKernel.incidencePlane_point_sup_line_eq_top_iff
+#print axioms BooleanAntichainsKernel.incidencePlane_line_sup_point_eq_top_iff
+#print axioms BooleanAntichainsKernel.incidencePlane_point_sup_point_ne_top

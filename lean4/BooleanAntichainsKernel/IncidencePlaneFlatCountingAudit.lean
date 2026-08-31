@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.IncidencePlaneFlatCounting
+
+#print axioms BooleanAntichainsKernel.incidencePlaneFlatEquiv
+#print axioms BooleanAntichainsKernel.incidencePlaneFlat_card
+#print axioms BooleanAntichainsKernel.incidencePlaneFlat_card_order
+#print axioms BooleanAntichainsKernel.incidencePlane_zero_count
+#print axioms BooleanAntichainsKernel.incidencePlane_singleton_count

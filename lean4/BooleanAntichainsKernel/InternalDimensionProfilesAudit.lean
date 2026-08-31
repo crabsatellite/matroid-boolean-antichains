@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.InternalDimensionProfiles
+
+#print axioms BooleanAntichainsKernel.internalProfileSigmaEquiv
+#print axioms BooleanAntichainsKernel.orderedInternal_count_by_dimensions_rational
+#print axioms BooleanAntichainsKernel.unorderedInternal_count_by_dimensions

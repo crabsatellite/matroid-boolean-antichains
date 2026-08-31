@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.UpperFlatContraction
+
+#print axioms BooleanAntichainsKernel.matroidFlatEqualityOrderIso_val
+#print axioms BooleanAntichainsKernel.upperFlatContractOrderIso
+#print axioms BooleanAntichainsKernel.upperFlatContractOrderIso_val
+#print axioms BooleanAntichainsKernel.upperFlatContractOrderIso_symm_val
+#print axioms BooleanAntichainsKernel.upperFlatContractOrderIso_rank_add
+#print axioms BooleanAntichainsKernel.upperFlatContractOrderIso_rank

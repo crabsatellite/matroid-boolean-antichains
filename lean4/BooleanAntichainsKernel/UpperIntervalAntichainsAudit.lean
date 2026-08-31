@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.UpperIntervalAntichains
+
+#print axioms BooleanAntichainsKernel.forgetUpperIntervalFamily_boolean_iff
+#print axioms BooleanAntichainsKernel.forgetUpperIntervalFamily_inf
+#print axioms BooleanAntichainsKernel.forget_liftUpperIntervalAntichain
+#print axioms BooleanAntichainsKernel.lift_forgetUpperIntervalAntichain

@@ -1,0 +1,4193 @@
+{
+  "atomic_claims": true,
+  "claim_inventory_sha256": "d0dd51e1e8ece2b4ae1f0c3870ada51321f88996551ccd94260fd1b3664acb5f",
+  "claims": [
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_def_boolean_atoms",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_def_boolean_atoms"
+      ],
+      "id": "def-boolean-atoms",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_def_boolean_atoms": 1
+      },
+      "proof_sha256": "9fce877b94acaddd6be72505006df2224c9fc0f76df8bb27223316491aaf4746",
+      "semantic_conclusions": [
+        "atom is meet of all other entries"
+      ],
+      "semantic_premises": [
+        "finite-indexed lattice family"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "reconstructedAtom",
+        "Finset",
+        "Fin"
+      ],
+      "signature_sha256": "8a053c2ad372543d6e401cc0e2683e606f9023c142865383bbd437d2c1f23eb1",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:def-boolean-atoms",
+      "tex_required_tokens": [
+        "A_i(C)",
+        "j\\ne i"
+      ],
+      "tex_sha256": "83a36f4b1189b6ae174c6f57fc3d6d0e5e5d40085526576a82bc093dea9a8ebe",
+      "trust_class": "author_definition"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_lem_full_height",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_lem_full_height"
+      ],
+      "id": "lem-full-height",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_lem_full_height": 1
+      },
+      "proof_sha256": "a16bf60b020b84176989ddb4220afa5cc5b304fe429b0f73e3fa47a601850ca8",
+      "semantic_conclusions": [
+        "span bottom is ambient bottom",
+        "span maximal chains are ambient maximal chains",
+        "span atoms have rank one",
+        "span coatoms have rank r minus one"
+      ],
+      "semantic_premises": [
+        "ranked lattice of rank r",
+        "Boolean antichain of size r"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "BooleanAntichain",
+        "GradeMinOrder",
+        "IsMaxChain"
+      ],
+      "signature_sha256": "3a645dcb66ec977bb624ca4a3333346668a70bde1ecd76fa11b8e15fb261a569",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lem-full-height",
+      "tex_required_tokens": [
+        "ranked lattice",
+        "size $r$",
+        "ranks $1$ and $r-1$"
+      ],
+      "tex_sha256": "980630e1bb8c539d3c6c24d4efdf24d7b045fc03824b249b11f2374c9b23644f",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "span bottom is ambient bottom",
+        "span maximal chains are ambient maximal chains",
+        "span atoms have rank one",
+        "span coatoms have rank r minus one"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-lem-full-height",
+      "premise_ids": [
+        "ranked lattice of rank r",
+        "Boolean antichain of size r"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "maximal"
+      ],
+      "target_claim": "lem-full-height",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-lem-full-height",
+      "tex_required_tokens": [],
+      "tex_sha256": "f41bb053d5bc96461c666d8ab5b7813e774057ef5aa0c4025764dead80728ba4"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_lem_basis_span",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_lem_basis_span"
+      ],
+      "id": "lem-basis-span",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_lem_basis_span": 1
+      },
+      "proof_sha256": "97f50ea4ca82115a9c027002d6e8ddba0e49449e812245698ae08abdbd69bcec",
+      "semantic_conclusions": [
+        "subset joins preserve joins",
+        "subset joins preserve meets",
+        "subset-join map is injective"
+      ],
+      "semantic_premises": [
+        "simplified-matroid basis of rank-one flats"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "IsSimplifiedBasis",
+        "MatroidFlat",
+        "Function.Injective"
+      ],
+      "signature_sha256": "125c98c92971bfe8835d78522646c60f9f29fedc15622f1082902df51fbd713e",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lem-basis-span",
+      "tex_required_tokens": [
+        "basis of $\\si(M)$",
+        "F_S\\cap F_T",
+        "embeds $B_r$"
+      ],
+      "tex_sha256": "06b29311837e130ef3d1ab216b409ba38b99332b78bb36feca67b28bcf00af61",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "subset joins preserve joins",
+        "subset joins preserve meets",
+        "subset-join map is injective"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-lem-basis-span",
+      "premise_ids": [
+        "simplified-matroid basis of rank-one flats"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "The"
+      ],
+      "target_claim": "lem-basis-span",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-lem-basis-span",
+      "tex_required_tokens": [],
+      "tex_sha256": "1b620297f7a7b1512152054d2a303844d59e38403dd72fb6445f5188663a2d48"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_def_reconstruction_gap",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_def_reconstruction_gap"
+      ],
+      "id": "def-reconstruction-gap",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_def_reconstruction_gap": 1
+      },
+      "proof_sha256": "c1653c362f73185ce55a55bf99287f48eca509bf28202aa972eac6e7dde84d89",
+      "semantic_conclusions": [
+        "natural reconstruction gap is V height minus U height"
+      ],
+      "semantic_premises": [
+        "finite lattice",
+        "ordered tuple",
+        "subset of indices"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "reconstructionGap",
+        "latticeHeight",
+        "meetFace",
+        "joinFace"
+      ],
+      "signature_sha256": "81c0cf0d6b29ceef2c66227fc0fd40eabc1e297605b2e4cce4a9d227c18f0678",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:def-reconstruction-gap",
+      "tex_required_tokens": [
+        "\\gamma_{\\mathbf H}(S)",
+        "\\lht_L V_{\\mathbf H}(S)",
+        "\\lht_L U_{\\mathbf H}(S)"
+      ],
+      "tex_sha256": "39bfac2520d316fee70a259e86261ba6fb7486fbe2e4c87e6e01efa95de2f95d",
+      "trust_class": "author_definition"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_thm_global_gap_criterion",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_thm_global_gap_criterion"
+      ],
+      "id": "thm-global-gap-criterion",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_thm_global_gap_criterion": 1
+      },
+      "proof_sha256": "f443e478c661ef9f2063a67a921fdc610f7280f9c469f889c25749d178b15545",
+      "semantic_conclusions": [
+        "Boolean tuple iff every reconstructed atom rises and every reconstruction gap vanishes"
+      ],
+      "semantic_premises": [
+        "finite lattice",
+        "ordered k-tuple"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "IsBooleanTuple",
+        "ReconstructedAtomsRise",
+        "ReconstructionGapsVanish"
+      ],
+      "signature_sha256": "10374b22e7e9df4d359e882fd2b4a0b567e9f4fe50ab7a49e683a4f27b88be28",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:thm-global-gap-criterion",
+      "tex_required_tokens": [
+        "finite lattice",
+        "equivalent",
+        "S\\subseteq[k]"
+      ],
+      "tex_sha256": "5a47306d16436fe5f8f46870a61fce2bc60b0da384c52fa23d5178da1b793fc6",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "exact unordered count is ordered indicator sum divided by k factorial"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-global-enumerator",
+      "premise_ids": [
+        "finite lattice",
+        "nonnegative size k"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "Consequently"
+      ],
+      "target_claim": "eq-global-enumerator",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-global-enumerator",
+      "tex_required_tokens": [],
+      "tex_sha256": "d5bc451d34d91543de5cd6d20db48abc1a24b6a4de39688756904a1e1c50a7d8"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_global_enumerator",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_global_enumerator"
+      ],
+      "id": "eq-global-enumerator",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_global_enumerator": 1
+      },
+      "proof_sha256": "35b2d9b9148c4f6aa6b86fa661c258b4bd3777ffb78e3f4b4edb6b252ccc7a7c",
+      "semantic_conclusions": [
+        "exact unordered count is ordered indicator sum divided by k factorial"
+      ],
+      "semantic_premises": [
+        "finite lattice",
+        "nonnegative size k"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "BooleanAntichain",
+        "globalCriterionIndicator",
+        "factorial"
+      ],
+      "signature_sha256": "6b8d56ba1f5d949d644d494fedbd52254be0b814eebbbaf2ae1fb4b622069f78",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-global-enumerator",
+      "tex_required_tokens": [
+        "|\\cC_k(L)|",
+        "\\frac1{k!}",
+        "\\gamma_{\\mathbf H}(S)=0"
+      ],
+      "tex_sha256": "ca3a7562a5f3d0ab9d16f33da162913a340db4b72f246dde19315b26b1cd4080",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_thm_global_boundaries",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_thm_global_boundaries"
+      ],
+      "id": "thm-global-boundaries",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_thm_global_boundaries": 1
+      },
+      "proof_sha256": "1c54fde713d76c6a96ec5bdc7d70cb613c285ef23b26b333dc20416ebec1ba79",
+      "semantic_conclusions": [
+        "zero-size count equals one",
+        "count vanishes above lattice height"
+      ],
+      "semantic_premises": [
+        "finite lattice",
+        "size k"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "BooleanAntichain",
+        "latticeHeight"
+      ],
+      "signature_sha256": "0593c92dd65496a7197dafc4f93a03f73188f8264ee97da62e6d1f60961152fa",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:thm-global-boundaries",
+      "tex_required_tokens": [
+        "|\\cC_0(L)|=1",
+        "k>\\lht_L(\\hat1)"
+      ],
+      "tex_sha256": "dc8efb1995ce917ffd0cd28551ecb0133a9779969520e1a8d4b3820083408a61",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "Boolean tuple iff every reconstructed atom rises and every reconstruction gap vanishes"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-global-criterion",
+      "premise_ids": [
+        "finite lattice",
+        "ordered k-tuple"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Suppose"
+      ],
+      "target_claim": "thm-global-gap-criterion",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-global-criterion",
+      "tex_required_tokens": [],
+      "tex_sha256": "5aa05e52cf48b2087d0fa5c9e0320f55d6142c1c3509125056ada7faad0b8eb5"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "exact unordered count is ordered indicator sum divided by k factorial"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-global-enumerator",
+      "premise_ids": [
+        "finite lattice",
+        "nonnegative size k"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "The"
+      ],
+      "target_claim": "eq-global-enumerator",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-global-enumerator",
+      "tex_required_tokens": [],
+      "tex_sha256": "2685fee24a6c4bb4ded5595d146eb791fe7ec9481e28682ad1535b0f8a074077"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "zero-size count equals one",
+        "count vanishes above lattice height"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-global-boundaries",
+      "premise_ids": [
+        "finite lattice",
+        "size k"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "The"
+      ],
+      "target_claim": "thm-global-boundaries",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-global-boundaries",
+      "tex_required_tokens": [],
+      "tex_sha256": "f728f338328678dc4b98c9a875762ff01c6b7e4d801025448a4b6ae03375413f"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_def_hom_transform",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_def_hom_transform"
+      ],
+      "id": "def-hom-transform",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_def_hom_transform": 1
+      },
+      "proof_sha256": "a5ef14b2eb83e6f600ea28221b21cfbd3e417a204a6034664bbb7e190929cbf6",
+      "semantic_conclusions": [
+        "eta is binomial transform of labelled antichain counts"
+      ],
+      "semantic_premises": [
+        "finite lattice",
+        "size k"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "etaCount",
+        "BooleanAntichain",
+        "factorial"
+      ],
+      "signature_sha256": "ffb9c80921e8c4961b914c9be017dcd583a48ac4a4528a8ea0a50bf27a5c2eba",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:def-hom-transform",
+      "tex_required_tokens": [
+        "\\eta_k(L)",
+        "\\binom ka",
+        "e_a(L)"
+      ],
+      "tex_sha256": "464b971e282e3a570a8371da03c916c90979eee73b272a8be638c460ea7cefec",
+      "trust_class": "author_definition"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "eta is multiplicative under lattice products"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-product-transform",
+      "premise_ids": [
+        "finite lattices L and K",
+        "size k"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "For"
+      ],
+      "target_claim": "eq-product-transform",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-product-transform",
+      "tex_required_tokens": [],
+      "tex_sha256": "88be7520a7e7e18c545b96bb067ee4a0f06273e76ac6ed5a84011a866a4f07d9"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_product_transform",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_product_transform"
+      ],
+      "id": "eq-product-transform",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_product_transform": 1
+      },
+      "proof_sha256": "9639a056b0a8e7ee498e52beec91aa39a9b1728a5cc4551c69473636b4100f00",
+      "semantic_conclusions": [
+        "eta is multiplicative under lattice products"
+      ],
+      "semantic_premises": [
+        "finite lattices L and K",
+        "size k"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "etaCount",
+        "L × K"
+      ],
+      "signature_sha256": "0c2f0c083a4bfc006e90db6b5fdd240a224aae460c909a96a4f355a9919da12d",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-product-transform",
+      "tex_required_tokens": [
+        "\\eta_k(L\\times K)",
+        "\\eta_k(L)\\eta_k(K)"
+      ],
+      "tex_sha256": "7d606d760035fcf8a01c5d499888bcb0f267d081d1e185f717b7d359e4832509",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "exact positive factorial convolution for product antichains"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-product-convolution",
+      "premise_ids": [
+        "finite lattices L and K",
+        "zero at most a and b at most k",
+        "k at most a plus b"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "Equivalently"
+      ],
+      "target_claim": "eq-product-convolution",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-product-convolution",
+      "tex_required_tokens": [],
+      "tex_sha256": "c3cbdc568dccbbf150fa6158fc207d23a64320acd2f5a590c801369378fb823e"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_product_convolution",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_product_convolution"
+      ],
+      "id": "eq-product-convolution",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_product_convolution": 1
+      },
+      "proof_sha256": "e6efe6a261bf38b2fdd04ccb65b416b7c24586525bee5f2b232c445a842f64dd",
+      "semantic_conclusions": [
+        "exact positive factorial convolution for product antichains"
+      ],
+      "semantic_premises": [
+        "finite lattices L and K",
+        "zero at most a and b at most k",
+        "k at most a plus b"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "BooleanAntichain",
+        "Finset.range",
+        "factorial"
+      ],
+      "signature_sha256": "09a7bcceadf83d341a30825a96b193400c2db016ae462a7fda9c5818728f0764",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-product-convolution",
+      "tex_required_tokens": [
+        "c_k(L\\times K)",
+        "a+b\\ge k",
+        "(a+b-k)!"
+      ],
+      "tex_sha256": "1210c1fb864c7a57fc0316c5883e03d318ef660fa109079f93e66ecfbbbac4a5",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "eta is multiplicative under lattice products"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-product-transform",
+      "premise_ids": [
+        "finite lattices L and K",
+        "size k"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "The"
+      ],
+      "target_claim": "eq-product-transform",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-product-transform",
+      "tex_required_tokens": [],
+      "tex_sha256": "ef675410d7129076ec3b299273985287dd413a0eb988bf1a739bc8092a3f9e09"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "exact positive factorial convolution for product antichains"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-product-convolution",
+      "premise_ids": [
+        "finite lattices L and K",
+        "zero at most a and b at most k",
+        "k at most a plus b"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "The"
+      ],
+      "target_claim": "eq-product-convolution",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-product-convolution",
+      "tex_required_tokens": [],
+      "tex_sha256": "04729bb1b4094e5b936625552c65b40b7f2f54e17c6ea068fd75fde34463105e"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_def_rank_profile",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_def_rank_profile"
+      ],
+      "id": "def-rank-profile",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_def_rank_profile": 1
+      },
+      "proof_sha256": "af5b91357593cb59131a3d664570b71b00d18d6389e5837acee481305eaabc89",
+      "semantic_conclusions": [
+        "profile is face rank minus common-meet rank"
+      ],
+      "semantic_premises": [
+        "matroid flat Boolean antichain",
+        "subfamily S"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "antichainRankProfile",
+        "antichainMeetFace",
+        "rank"
+      ],
+      "signature_sha256": "f69efcf55dbe044550670b4c8e704e16fc3b5a66e1cae353fdb53ec921a565e6",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:def-rank-profile",
+      "tex_required_tokens": [
+        "\\rho_C(S)",
+        "\\rk_M(F_S)",
+        "\\rk_M(X_C)"
+      ],
+      "tex_sha256": "6995fef988f38732f0d722d83cf588779157a63cc862400cc1a510d05df2da86",
+      "trust_class": "author_definition"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_cor_rank_profile_polymatroid",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_cor_rank_profile_polymatroid"
+      ],
+      "id": "cor-rank-profile-polymatroid",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_cor_rank_profile_polymatroid": 1
+      },
+      "proof_sha256": "6a720bd45278c1f61c300336efba922371a46ff620c391460d9ae6095d434d62",
+      "semantic_conclusions": [
+        "profile is normalized",
+        "profile is strictly increasing",
+        "profile is integral",
+        "profile is submodular"
+      ],
+      "semantic_premises": [
+        "matroid flat Boolean antichain"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "StrictMono",
+        "antichainRankProfile",
+        "MatroidFlat"
+      ],
+      "signature_sha256": "067e583fa6d332ac25a6bde174dcfee85351fc4621a0c788dd603d947c08fb78",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:cor-rank-profile-polymatroid",
+      "tex_required_tokens": [
+        "normalized",
+        "strictly increasing",
+        "polymatroid"
+      ],
+      "tex_sha256": "8400b138227dcffcfd6d9e13c8c02932c0b37002af2659e07e41a3a5abfe61fe",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_cor_rank_profile_tight",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_cor_rank_profile_tight"
+      ],
+      "id": "cor-rank-profile-tight",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_cor_rank_profile_tight": 1
+      },
+      "proof_sha256": "1b7ced84fe9996b8296117f49d0116616a46d113317e33890ae8a1b6ac414c6b",
+      "semantic_conclusions": [
+        "rank tight iff every face profile equals its index cardinality"
+      ],
+      "semantic_premises": [
+        "matroid flat Boolean antichain"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "IsRankTight",
+        "antichainRankProfile",
+        "S.card"
+      ],
+      "signature_sha256": "9fb686e3b08453779cf652591451e571e03f9905d0dc9a11d14fc94b38d7a740",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:cor-rank-profile-tight",
+      "tex_required_tokens": [
+        "rank-tight",
+        "\\rho_C(S)=|S|"
+      ],
+      "tex_sha256": "bb20055a75a9eaa5b77c0d93960e5b88abbaf498b0c53887dfd890edd34b3383",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "profile is normalized",
+        "profile is strictly increasing",
+        "profile is integral",
+        "profile is submodular"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-rank-profile-polymatroid",
+      "premise_ids": [
+        "matroid flat Boolean antichain"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Normalization"
+      ],
+      "target_claim": "cor-rank-profile-polymatroid",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-rank-profile-polymatroid",
+      "tex_required_tokens": [],
+      "tex_sha256": "af798c776534ebe38d556ae9ffe21b1bb2f5b2331608300a5b9541a3ca9f79da"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "rank tight iff every face profile equals its index cardinality"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-rank-profile-tight",
+      "premise_ids": [
+        "matroid flat Boolean antichain"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "rank-tight"
+      ],
+      "target_claim": "cor-rank-profile-tight",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-rank-profile-tight",
+      "tex_required_tokens": [],
+      "tex_sha256": "7e1d76979533e423e400be20f43de2df055eb63465107e9e97f586792f0dbb0e"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_thm_uniform_base_layers",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_thm_uniform_base_layers"
+      ],
+      "id": "thm-uniform-base-layers",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_thm_uniform_base_layers": 1
+      },
+      "proof_sha256": "da55c98da66f8f2636c0557df4d7e4fbfab3a3e8ee767bb98c223f01d1539c2a",
+      "semantic_conclusions": [
+        "uniform zero layer equals one",
+        "uniform singleton layer is sum of binomial coefficients below r"
+      ],
+      "semantic_premises": [
+        "one at most r at most n"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "uniformOn",
+        "BooleanAntichain",
+        "Finset.range"
+      ],
+      "signature_sha256": "ef2d740661c8e33234ffd63786dc76ad9042cf61e55c3a5329cc54a2c2b98e72",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:thm-uniform-base-layers",
+      "tex_required_tokens": [
+        "1\\le r\\le n",
+        "|\\cC_0(U_{r,n})|=1",
+        "|\\cC_1(U_{r,n})|"
+      ],
+      "tex_sha256": "7db8fba7c9f9b3f904290e174cd7e50a219474979c746797bdbd1d8f79dcd8e5",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "exact bottom-and-positive-block rational enumeration"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-uniform-all-formula",
+      "premise_ids": [
+        "one at most r at most n",
+        "two at most k at most r"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "For"
+      ],
+      "target_claim": "eq-uniform-all",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-uniform-all-formula",
+      "tex_required_tokens": [],
+      "tex_sha256": "8674a00fee7b26d07def20db4d35e20945fb8f1ce5e71dab42ca2a832982f00a"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_uniform_all",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_uniform_all"
+      ],
+      "id": "eq-uniform-all",
+      "premise_traces": [
+        {
+          "signature_token": "1 ≤ r",
+          "source_claim_id": "thm-uniform-base-layers",
+          "source_text_tokens": [
+            "1\\le r\\le n"
+          ]
+        },
+        {
+          "signature_token": "r ≤ n",
+          "source_claim_id": "thm-uniform-base-layers",
+          "source_text_tokens": [
+            "1\\le r\\le n"
+          ]
+        },
+        {
+          "signature_token": "2 ≤ k",
+          "source_claim_id": "lead-uniform-all-formula",
+          "source_text_tokens": [
+            "2\\le k\\le r"
+          ]
+        },
+        {
+          "signature_token": "k ≤ r",
+          "source_claim_id": "lead-uniform-all-formula",
+          "source_text_tokens": [
+            "2\\le k\\le r"
+          ]
+        }
+      ],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_uniform_all": 1
+      },
+      "proof_sha256": "eb2acfc3ee5215eadcc55d9fdf21f758413c05b7309e2ac6f9aaeceb1eb6b7c0",
+      "semantic_conclusions": [
+        "exact bottom-and-positive-block rational enumeration"
+      ],
+      "semantic_premises": [
+        "one at most r at most n",
+        "two at most k at most r"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "uniformOn",
+        "factorial"
+      ],
+      "signature_sha256": "33ee4fa23623e8f3eb54f1b6b372341ba21bacd15c2d1efb460897c0a611daa3",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-uniform-all",
+      "tex_required_tokens": [
+        "|\\cC_k(U_{r,n})|",
+        "p_1,\\ldots,p_k\\ge1",
+        "b+p-p_i<r"
+      ],
+      "tex_sha256": "792dfc13326055bafb6618c155106b1247800ef48e9dcb2285755ccd6e9a8999",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_thm_uniform_distributions",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_thm_uniform_distributions"
+      ],
+      "id": "thm-uniform-distributions",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_thm_uniform_distributions": 1
+      },
+      "proof_sha256": "d7ffa5faf38197be5e8494de78538ce452e29ecdad3d1d70bdb9028c74b58a8c",
+      "semantic_conclusions": [
+        "complete displayed U3,4 distribution",
+        "complete displayed U4,5 distribution"
+      ],
+      "semantic_premises": [
+        "uniform matroids U3,4 and U4,5"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "List.ofFn",
+        "uniformOn",
+        "BooleanAntichain"
+      ],
+      "signature_sha256": "fecc400fd5466792134ce94fe5854b86e7476ed52c61582e41af56fd3dca30cf",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:thm-uniform-distributions",
+      "tex_required_tokens": [
+        "(1,11,27,4)",
+        "(1,26,150,50,5)"
+      ],
+      "tex_sha256": "92d56b5370d107b548f89d59f29c69c86bf9f677417bd85198fdd2b92b700f8c",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "uniform zero layer equals one",
+        "uniform singleton layer is sum of binomial coefficients below r"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-uniform-base-layers",
+      "premise_ids": [
+        "one at most r at most n"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "For"
+      ],
+      "target_claim": "thm-uniform-base-layers",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-uniform-base-layers",
+      "tex_required_tokens": [],
+      "tex_sha256": "561eafc1566db3633c793307cb94a4f9e20f304a061f11a1c096958f716fe2e6"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "exact bottom-and-positive-block rational enumeration"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-uniform-structure",
+      "premise_ids": [
+        "one at most r at most n",
+        "two at most k at most r"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Let"
+      ],
+      "target_claim": "eq-uniform-all",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-uniform-structure",
+      "tex_required_tokens": [],
+      "tex_sha256": "90888b5d3194000f3d3cb46d8d97f1a72547d9d91d1197806c5a33ad2b5efedd"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "exact bottom-and-positive-block rational enumeration"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-uniform-count",
+      "premise_ids": [
+        "one at most r at most n",
+        "two at most k at most r"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "There"
+      ],
+      "target_claim": "eq-uniform-all",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-uniform-count",
+      "tex_required_tokens": [],
+      "tex_sha256": "3604446c617bc5cca63b1c2bae61f1d9849926b231cc73e75b0fb1d00cfbafb7"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_thm_size_two_structural",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_thm_size_two_structural"
+      ],
+      "id": "thm-size-two-structural",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_thm_size_two_structural": 1
+      },
+      "proof_sha256": "c4f107cb4d5cba81591a4f7438e781102511e957ef53a06210d128653c3e882c",
+      "semantic_conclusions": [
+        "Boolean pair iff both entries are proper and their join is top"
+      ],
+      "semantic_premises": [
+        "finite lattice elements F and G"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "IsBooleanTuple",
+        "pairTuple",
+        "⊤"
+      ],
+      "signature_sha256": "6f22b82a41bb96b6af43266497d56557f0ed793464f3315c168f1cc4e0a3b0e5",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:thm-size-two-structural",
+      "tex_required_tokens": [
+        "if and only if",
+        "both are proper",
+        "F\\vee G=\\hat1"
+      ],
+      "tex_sha256": "2655d4956c6b521c776ef8978b74bca7b8707deba26e78c461a4acf9de422807",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "unordered Boolean-pair count equals half corrected Mobius join-pair sum"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-size-two-mobius",
+      "premise_ids": [
+        "finite lattice with decidable order"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "Consequently"
+      ],
+      "target_claim": "eq-size-two-mobius",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-size-two-mobius",
+      "tex_required_tokens": [],
+      "tex_sha256": "28266f5115e0420162f3231acdc72ee6437a9de98dfe0315b2525ed826789607"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_size_two_mobius",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_size_two_mobius"
+      ],
+      "id": "eq-size-two-mobius",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_size_two_mobius": 1
+      },
+      "proof_sha256": "00d43b44535712c5044b322c090a3545d3f6b3b06cf37ee26ee6992895cd8dfc",
+      "semantic_conclusions": [
+        "unordered Boolean-pair count equals half corrected Mobius join-pair sum"
+      ],
+      "semantic_premises": [
+        "finite lattice with decidable order"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "mobiusPairSum",
+        "BooleanAntichain"
+      ],
+      "signature_sha256": "d44f10f87bfee4bf921814a74eb6af7ba09a7ee2f1530bb126809aa473ba54ed",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-size-two-mobius",
+      "tex_required_tokens": [
+        "|\\cC_2(L)|",
+        "\\mu_L(X,\\hat1)",
+        "\\ell(X)^2"
+      ],
+      "tex_sha256": "4d7d38c75b55c2e37231abce9973bff8b798be26f128aa536e1ca0354cd316e2",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "Boolean pair iff both entries are proper and their join is top"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-size-two-structural",
+      "premise_ids": [
+        "finite lattice elements F and G"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "hat"
+      ],
+      "target_claim": "thm-size-two-structural",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-size-two-structural",
+      "tex_required_tokens": [],
+      "tex_sha256": "6863a62de2521ce29143d06800c2db9a39569930250746a02de770a283514536"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "unordered Boolean-pair count equals half corrected Mobius join-pair sum"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-size-two-mobius",
+      "premise_ids": [
+        "finite lattice with decidable order"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "For"
+      ],
+      "target_claim": "eq-size-two-mobius",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-size-two-mobius",
+      "tex_required_tokens": [],
+      "tex_sha256": "1923f56962a210f0fe5beb7828f53314b9fde09306fcac2543f92834402b60f3"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_thm_distributive_bijection",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_thm_distributive_bijection"
+      ],
+      "id": "thm-distributive-bijection",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_thm_distributive_bijection": 1
+      },
+      "proof_sha256": "38702f755acc6cd7f422dcf29c379b574add2ae8266b69d03592b8eed49fcf98",
+      "semantic_conclusions": [
+        "complementation bijects Boolean antichains with disjoint nonempty order-filter families"
+      ],
+      "semantic_premises": [
+        "finite poset P",
+        "size k"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "BooleanAntichain",
+        "LowerSet",
+        "DisjointFilterFamily"
+      ],
+      "signature_sha256": "e309b7cbff1dd47654de350c0c787fa0c3574e4d9512c27fa7445ab319e683e5",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:thm-distributive-bijection",
+      "tex_required_tokens": [
+        "size-preserving bijection",
+        "\\mathcal F^+(P)",
+        "F_i\\cap F_j=\\varnothing"
+      ],
+      "tex_sha256": "87ff80eab175fe71f1256f6316a8ff05cfb1c13324802087afb4b38687dc1330",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "Boolean-antichain polynomial equals filter-intersection-graph independence polynomial"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-distributive-polynomial",
+      "premise_ids": [
+        "finite poset P"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "Consequently"
+      ],
+      "target_claim": "eq-distributive-polynomial",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-distributive-polynomial",
+      "tex_required_tokens": [],
+      "tex_sha256": "28266f5115e0420162f3231acdc72ee6437a9de98dfe0315b2525ed826789607"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_distributive_polynomial",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_distributive_polynomial"
+      ],
+      "id": "eq-distributive-polynomial",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_distributive_polynomial": 1
+      },
+      "proof_sha256": "c0714bb29c3d216676fe2b729df0053f2ccb108ac3cfe2fb639b71e5cef116f3",
+      "semantic_conclusions": [
+        "Boolean-antichain polynomial equals filter-intersection-graph independence polynomial"
+      ],
+      "semantic_premises": [
+        "finite poset P"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "booleanAntichainPolynomial",
+        "graphIndependencePolynomial",
+        "filterIntersectionGraph"
+      ],
+      "signature_sha256": "580a20daa56317c165c4abafe19e49c6fe674a7a41bde22fdf20494efce011de",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-distributive-polynomial",
+      "tex_required_tokens": [
+        "\\sum_{k\\ge0}|\\cC_k(J(P))|t^k",
+        "I(\\Gamma_P;t)"
+      ],
+      "tex_sha256": "9d6c1bafe1ae00f93b22f3a191028820d668bac62ff12081606bfedd352d0429",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "complementation bijects Boolean antichains with disjoint nonempty order-filter families"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-distributive-criterion",
+      "premise_ids": [
+        "finite poset P",
+        "size k"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Boolean"
+      ],
+      "target_claim": "thm-distributive-bijection",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-distributive-criterion",
+      "tex_required_tokens": [],
+      "tex_sha256": "e3f64ecb58e1c00dd61de81f29ba1c34f671200921b275c79f10ac8fc9a30f84"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "complementation bijects Boolean antichains with disjoint nonempty order-filter families"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-distributive-bijection",
+      "premise_ids": [
+        "finite poset P",
+        "size k"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Complementation"
+      ],
+      "target_claim": "thm-distributive-bijection",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-distributive-bijection",
+      "tex_required_tokens": [],
+      "tex_sha256": "c8205ead5242a4a4b8233e9a1e7e980a06e789011b9bb03f8bd38306ea45cce6"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "Boolean-antichain polynomial equals filter-intersection-graph independence polynomial"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-distributive-polynomial",
+      "premise_ids": [
+        "finite poset P"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Pairwise"
+      ],
+      "target_claim": "eq-distributive-polynomial",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-distributive-polynomial",
+      "tex_required_tokens": [],
+      "tex_sha256": "01e416e8a902c2d99e9b9e4ffa1cb1c12b1162a22ef243b0391f8da3fda0f720"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_thm_main_bijection",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_thm_main_bijection"
+      ],
+      "id": "thm-main-bijection",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_thm_main_bijection": 1
+      },
+      "proof_sha256": "ac67c26d58fdcda2a7360b62b76657923cd0aa8cfa9330161172a9b6c69c121d",
+      "semantic_conclusions": [
+        "atom map lands in simplified bases",
+        "coatom map lands in maximum antichains",
+        "the two maps are mutual inverses"
+      ],
+      "semantic_premises": [
+        "finite rank-r matroid"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "MaximumBooleanAntichain",
+        "SimplifiedBasis",
+        "LeftInverse",
+        "RightInverse"
+      ],
+      "signature_sha256": "e8668c191ea93de8382ebc532a5c297efd92a26d8f5ae93747e41ab91d7ebc7e",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:thm-main-bijection",
+      "tex_required_tokens": [
+        "finite rank-$r$ matroid",
+        "\\Phi",
+        "\\Psi",
+        "inverse"
+      ],
+      "tex_sha256": "fe46a00b6ce9d2e4a9dcf144719e13b02fb221f50822961aa0785d1a65e61afd",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "maximum-antichain count equals simplified-basis count",
+        "simplified-basis count equals Tutte evaluation at one one"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-main-count",
+      "premise_ids": [
+        "finite matroid M"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "Hence"
+      ],
+      "target_claim": "eq-main-count",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-main-count",
+      "tex_required_tokens": [],
+      "tex_sha256": "92aef840c9cf1c0529e4671a752a44210f5135457150227de82f39451cdf2da4"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_main_count",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_main_count"
+      ],
+      "id": "eq-main-count",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_main_count": 1
+      },
+      "proof_sha256": "28ddd820bff57694b4a55cd703041bf92fc8f5a0d1e069c827ca152b061dd672",
+      "semantic_conclusions": [
+        "maximum-antichain count equals simplified-basis count",
+        "simplified-basis count equals Tutte evaluation at one one"
+      ],
+      "semantic_premises": [
+        "finite matroid M"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "MaximumBooleanAntichain",
+        "SimplifiedBasis",
+        "matroidTuttePolynomial"
+      ],
+      "signature_sha256": "a9d327290790ba0721b603bd79423262b06ca988da0b14d57bb5bf4dfd69a19f",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-main-count",
+      "tex_required_tokens": [
+        "|\\cC_r(M)|",
+        "|\\cB(\\si(M))|",
+        "T_{\\si(M)}(1,1)"
+      ],
+      "tex_sha256": "c4d6af3cc402a1a84f1f1a5ebc9d30ff9f4845c231a5438f400f0c7ea9bbfd99",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "atom map lands in simplified bases",
+        "coatom map lands in maximum antichains",
+        "the two maps are mutual inverses"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-main-forward",
+      "premise_ids": [
+        "finite rank-r matroid"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Let"
+      ],
+      "target_claim": "thm-main-bijection",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-main-forward",
+      "tex_required_tokens": [],
+      "tex_sha256": "753e45d8647a52e842195e4861f4ce310cf95cbd1e78a86bf8274854e8802493"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "atom map lands in simplified bases",
+        "coatom map lands in maximum antichains",
+        "the two maps are mutual inverses"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-main-reverse",
+      "premise_ids": [
+        "finite rank-r matroid"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Conversely"
+      ],
+      "target_claim": "thm-main-bijection",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-main-reverse",
+      "tex_required_tokens": [],
+      "tex_sha256": "3bb84371f92b33bf98908bcf467350e40233b07fbf6f840b27a637e849361b33"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "atom map lands in simplified bases",
+        "coatom map lands in maximum antichains",
+        "the two maps are mutual inverses"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-main-inverses",
+      "premise_ids": [
+        "finite rank-r matroid"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "The"
+      ],
+      "target_claim": "thm-main-bijection",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-main-inverses",
+      "tex_required_tokens": [],
+      "tex_sha256": "dcb545a20984d9c4cdaf97ceb5aeb6d651a4ca61ddf9dd83a24c3bf0a23921cc"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "maximum-antichain count equals simplified-basis count",
+        "simplified-basis count equals Tutte evaluation at one one"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-main-count",
+      "premise_ids": [
+        "finite matroid M"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "The"
+      ],
+      "target_claim": "eq-main-count",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-main-count",
+      "tex_required_tokens": [],
+      "tex_sha256": "fb0a20baf25b500501b2fba6d716522e001c6ae368dc27820bd61ed43478836d"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "multivariate basis polynomial decomposes over maximum Boolean antichains and literal nonloop parallel classes"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-weighted-polynomial",
+      "premise_ids": [
+        "finite matroid M",
+        "original ground-element variables"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "For"
+      ],
+      "target_claim": "eq-weighted-polynomial",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-weighted-polynomial",
+      "tex_required_tokens": [],
+      "tex_sha256": "fbcf2633a1dbba62994bad6bd8c3a32e9eb1c6d30386edc9c1435114daa8d4e3"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_weighted_polynomial",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_weighted_polynomial"
+      ],
+      "id": "eq-weighted-polynomial",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_weighted_polynomial": 1
+      },
+      "proof_sha256": "fc23ea5194b7d8195f40b2129601e9033d9fc3181315b36a94130c313a4fd150",
+      "semantic_conclusions": [
+        "multivariate basis polynomial decomposes over maximum Boolean antichains and literal nonloop parallel classes"
+      ],
+      "semantic_premises": [
+        "finite matroid M",
+        "original ground-element variables"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "matroidBasisPolynomial",
+        "parallelClassElements"
+      ],
+      "signature_sha256": "ce0c23afb050cbe3b82f4d55773e1fdde27625f97b6ac53259646bfc42de4d00",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-weighted-polynomial",
+      "tex_required_tokens": [
+        "\\mathbf B_M(\\mathbf x)",
+        "A\\setminus L_0",
+        "\\sum_{e\\in"
+      ],
+      "tex_sha256": "2addd9c92c528240f267cd19e9692440ebf0d8ccf9394f89aeb92f21f70cafa6",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "basis count is sum of products of literal parallel-class sizes"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-weighted-count",
+      "premise_ids": [
+        "finite matroid M"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "particular"
+      ],
+      "target_claim": "eq-weighted-count",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-weighted-count",
+      "tex_required_tokens": [],
+      "tex_sha256": "3a7ca24f56b805f8531c3c9ed7a2b5a454a1efbb54b662eabc2df7a9e9f1929a"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_weighted_count",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_weighted_count"
+      ],
+      "id": "eq-weighted-count",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_weighted_count": 1
+      },
+      "proof_sha256": "77f9999760c78e429b3d78aeccb265e57e485ea0d5db6d8d91cc5b0d663ffc0b",
+      "semantic_conclusions": [
+        "basis count is sum of products of literal parallel-class sizes"
+      ],
+      "semantic_premises": [
+        "finite matroid M"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "MatroidBases",
+        "parallelClassElements"
+      ],
+      "signature_sha256": "8bb18a8eb872de577cb80c8a04a1a9ef9ab2f9022890be129aa14b7002987726",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-weighted-count",
+      "tex_required_tokens": [
+        "b(M)",
+        "|A\\setminus L_0|"
+      ],
+      "tex_sha256": "13677e42180958cc0e0be945b81189ea0b397bcf21795bd9c5310bf20abc2c65",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "multivariate basis polynomial decomposes over maximum Boolean antichains and literal nonloop parallel classes"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-weighted-polynomial",
+      "premise_ids": [
+        "finite matroid M",
+        "original ground-element variables"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Every"
+      ],
+      "target_claim": "eq-weighted-polynomial",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-weighted-polynomial",
+      "tex_required_tokens": [],
+      "tex_sha256": "b1ab3e93741c4fdfdc44cfc27723bf738f1712c8dabc7d1c30771a3dfd1b5c60"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "basis count is sum of products of literal parallel-class sizes"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-weighted-count",
+      "premise_ids": [
+        "finite matroid M"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Setting"
+      ],
+      "target_claim": "eq-weighted-count",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-weighted-count",
+      "tex_required_tokens": [],
+      "tex_sha256": "78af975ca36f9eb7a5b59f44740fb182b09df9e295519e208aebaddef59425a2"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_thm_interval_bijection",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_thm_interval_bijection"
+      ],
+      "id": "thm-interval-bijection",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_thm_interval_bijection": 1
+      },
+      "proof_sha256": "047e6a88063625dade662d015c0dc4eba8036e6a96cceb23988be52584bfb620",
+      "semantic_conclusions": [
+        "maximum interval Boolean antichains biject with simplified bases of restriction-contraction minor"
+      ],
+      "semantic_premises": [
+        "finite matroid M",
+        "flats X at most Y",
+        "d equals rank Y minus rank X"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "intervalAntichainEquivBasis",
+        "Function.Bijective",
+        "MatroidFlat"
+      ],
+      "signature_sha256": "4260fc36bbc64c84cfb9ff3ea7ade5f852139348afbf306209fae57734c6c0f2",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:thm-interval-bijection",
+      "tex_required_tokens": [
+        "size $d$",
+        "$[X,Y]$",
+        "\\si((M|Y)/X)"
+      ],
+      "tex_sha256": "c72a50849c1a4e91de0f80c168bb5614dc34966e5eb06b20433e8cec0f7b6b45",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "minor basis polynomial decomposes over interval Boolean antichains with literal A minus X factors"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-interval-weighted",
+      "premise_ids": [
+        "finite matroid M",
+        "flats X at most Y"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "Moreover"
+      ],
+      "target_claim": "eq-interval-weighted",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-interval-weighted",
+      "tex_required_tokens": [],
+      "tex_sha256": "68e59761d5258902081279bf0f9b26bbce9c89f3f457b78e6a4109ea4521b1a6"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_interval_weighted",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_interval_weighted"
+      ],
+      "id": "eq-interval-weighted",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_interval_weighted": 1
+      },
+      "proof_sha256": "00ed18f045115200a7382a07dd517b5eb03ec88997ab50521762aa7676eec6cc",
+      "semantic_conclusions": [
+        "minor basis polynomial decomposes over interval Boolean antichains with literal A minus X factors"
+      ],
+      "semantic_premises": [
+        "finite matroid M",
+        "flats X at most Y"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "flatIntervalMinor",
+        "spanAtomFinset"
+      ],
+      "signature_sha256": "d4e7c58d80cfc91ae7cfdf06d91acfa335e2a544bfb831d28a45dbbaf7c1e4c7",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-interval-weighted",
+      "tex_required_tokens": [
+        "\\mathbf B_{(M|Y)/X}",
+        "A\\setminus X"
+      ],
+      "tex_sha256": "4bdcde5672f36f384f70814a7bd86371bce28c2c6eaddab2a6993b1b7aa99fa1",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "minor basis polynomial decomposes over interval Boolean antichains with literal A minus X factors"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "tail-interval-weighted",
+      "premise_ids": [
+        "finite matroid M",
+        "flats X at most Y"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "where"
+      ],
+      "target_claim": "eq-interval-weighted",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:tail-interval-weighted",
+      "tex_required_tokens": [],
+      "tex_sha256": "d4db26fe13c8b2977105b416008b4fc76aca6fc59b93e18d50158c3a35b58e81"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "maximum interval Boolean antichains biject with simplified bases of restriction-contraction minor"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-interval-bijection",
+      "premise_ids": [
+        "finite matroid M",
+        "flats X at most Y",
+        "d equals rank Y minus rank X"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Apply"
+      ],
+      "target_claim": "thm-interval-bijection",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-interval-bijection",
+      "tex_required_tokens": [],
+      "tex_sha256": "93dbcca9425f9831e5da0bddd981c1a682579121570f738971c96d2a476e38cd"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "minor basis polynomial decomposes over interval Boolean antichains with literal A minus X factors"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-interval-weighted",
+      "premise_ids": [
+        "finite matroid M",
+        "flats X at most Y"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "The"
+      ],
+      "target_claim": "eq-interval-weighted",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-interval-weighted",
+      "tex_required_tokens": [],
+      "tex_sha256": "cfacc607f2ccd32ec156e1c05c1680ad9b70e5c65c692aa6392126786e481b04"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_def_rank_tight",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_def_rank_tight"
+      ],
+      "id": "def-rank-tight",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_def_rank_tight": 1
+      },
+      "proof_sha256": "f82cd70ccb4027e6531e3343467490309b42b149d96f672a7061de42b0afff5d",
+      "semantic_conclusions": [
+        "rank tight means common-meet rank equals ambient rank minus k"
+      ],
+      "semantic_premises": [
+        "matroid flat Boolean antichain of size k"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "IsRankTight",
+        "rank"
+      ],
+      "signature_sha256": "d5e8311c077104e7d284ec0b121441007ad35dfadec8692fb097060365b63473",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:def-rank-tight",
+      "tex_required_tokens": [
+        "rank-tight",
+        "\\rk_M(X_C)=r-k"
+      ],
+      "tex_sha256": "5cee6e6334b6edc114b034ae75e81e91e7fd31ec6ea159a6e37e0679cc84733b",
+      "trust_class": "author_definition"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_def_rank_tight_equivalent",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_def_rank_tight_equivalent"
+      ],
+      "id": "def-rank-tight-equivalent",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_def_rank_tight_equivalent": 1
+      },
+      "proof_sha256": "355f92795fa7137dce52b33eab3c75fdead21178d8905a9e9a4a1f089aedf79b",
+      "semantic_conclusions": [
+        "rank-tight equation iff common meet has integer corank k"
+      ],
+      "semantic_premises": [
+        "matroid flat Boolean antichain of size k"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "IsRankTight",
+        "HasCorank"
+      ],
+      "signature_sha256": "72dc11a2d744916f79d840f557fb60d5ca7d3083d5f8c8ef23e77ef24bbf9e32",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:def-rank-tight-equivalent",
+      "tex_required_tokens": [
+        "Equivalently",
+        "full height",
+        "$[X_C,E]$"
+      ],
+      "tex_sha256": "aeccce2319a7170dab8103e841b1ace5aeec9213aaa35066b0bf64b5eb933463",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_cor_rank_tight_partition",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_cor_rank_tight_partition"
+      ],
+      "id": "cor-rank-tight-partition",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_cor_rank_tight_partition": 1
+      },
+      "proof_sha256": "50f10e9f4b6a05f54e926f89531edc59ee60d4d06e11004120e4f6633c179795",
+      "semantic_conclusions": [
+        "rank-tight antichains decompose into fibres indexed by their literal common-meet flat"
+      ],
+      "semantic_premises": [
+        "finite matroid M",
+        "size k"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "RankTightAntichain",
+        "CorankFlat"
+      ],
+      "signature_sha256": "073a72e46e2b9f3249e048bb73a107a46d68f084f8690a9d0d61863dea2613a9",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:cor-rank-tight-partition",
+      "tex_required_tokens": [
+        "partitioned by their bottom"
+      ],
+      "tex_sha256": "23671bd88f9775a41040ffe034b4c2c3e48daade81b996502d0f0d3a5959861a",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "rank-tight count is exact sum of simplified contraction basis counts"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-rank-tight-count",
+      "premise_ids": [
+        "finite matroid M",
+        "size k",
+        "integer corank equality"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "and"
+      ],
+      "target_claim": "eq-rank-tight-count",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-rank-tight-count",
+      "tex_required_tokens": [],
+      "tex_sha256": "4e37fb97801e7191b06352e73dfaeb67563fbfec03d120e130c2246b8002bb53"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_rank_tight_count",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_rank_tight_count"
+      ],
+      "id": "eq-rank-tight-count",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_rank_tight_count": 1
+      },
+      "proof_sha256": "fb3a801e8a1d7987ec78f323e377304411cd6963fc338765b30d7def61992236",
+      "semantic_conclusions": [
+        "rank-tight count is exact sum of simplified contraction basis counts"
+      ],
+      "semantic_premises": [
+        "finite matroid M",
+        "size k",
+        "integer corank equality"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "RankTightAntichain",
+        "MatroidBases",
+        "contract"
+      ],
+      "signature_sha256": "ea62e693a3af8e86f334e8b08fa458bc18b25210eae187108baade60f19c07af",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-rank-tight-count",
+      "tex_required_tokens": [
+        "C\\text{ rank-tight}",
+        "\\rk_M(X)=r-k",
+        "b\\bigl(\\si(M/X)\\bigr)"
+      ],
+      "tex_sha256": "fdf0c32ca7bb6cc35f5e7d0c793e3733b74605e549167048dd03dd7da7c77c2e",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_cor_rank_tight_fiber",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_cor_rank_tight_fiber"
+      ],
+      "id": "cor-rank-tight-fiber",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_cor_rank_tight_fiber": 1
+      },
+      "proof_sha256": "44f6a10bec6ddae218f9377aebf76ea488585a3a2df6d1c6364465df6af10bcb",
+      "semantic_conclusions": [
+        "fixed-bottom fibre bijects with actual simplified bases of M contracted by X"
+      ],
+      "semantic_premises": [
+        "finite matroid M",
+        "corank-k flat X"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "bottomFiberEquivActualContractionBases",
+        "Function.Bijective",
+        "HasCorank"
+      ],
+      "signature_sha256": "b138bb9f8417679fddb22a8a4e00b241a94373ebacee45c3a8960c94376982d8",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:cor-rank-tight-fiber",
+      "tex_required_tokens": [
+        "For each fixed $X$",
+        "$[X,E]$"
+      ],
+      "tex_sha256": "97e3cd38cebb4b469ccce4434b5b85baceedea69e5b80d6de6d79ab3f7d90604",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "fixed-bottom fibre bijects with actual simplified bases of M contracted by X"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-rank-tight-fiber",
+      "premise_ids": [
+        "finite matroid M",
+        "corank-k flat X"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "rank-tight"
+      ],
+      "target_claim": "cor-rank-tight-fiber",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-rank-tight-fiber",
+      "tex_required_tokens": [],
+      "tex_sha256": "4ec32bac6a65f2301c005421bc8be04be1d885b803e5b2828bd9c0d3bfcb89c5"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "rank-tight count is exact sum of simplified contraction basis counts"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-rank-tight-count",
+      "premise_ids": [
+        "finite matroid M",
+        "size k",
+        "integer corank equality"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Apply"
+      ],
+      "target_claim": "eq-rank-tight-count",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-rank-tight-count",
+      "tex_required_tokens": [],
+      "tex_sha256": "dde4e5e4357f92b854260d14106666450218231c062cc4d4d6f0052da370905c"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "rank-tight Boolean-lattice count is n choose k"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-boolean-tight",
+      "premise_ids": [
+        "Boolean lattice Bn",
+        "size k"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "The"
+      ],
+      "target_claim": "eq-boolean-tight",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-boolean-tight",
+      "tex_required_tokens": [],
+      "tex_sha256": "43114b21a47037ac62438e367c897275e2012b02157d4aa50001df04ac4fedde"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_boolean_tight",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_boolean_tight"
+      ],
+      "id": "eq-boolean-tight",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_boolean_tight": 1
+      },
+      "proof_sha256": "cf9cdce5908a25346b8eadea7e2830a0eb03f7445691c0cb088242741b8259e3",
+      "semantic_conclusions": [
+        "rank-tight Boolean-lattice count is n choose k"
+      ],
+      "semantic_premises": [
+        "Boolean lattice Bn",
+        "size k"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "BooleanLatticeRankTightAntichain",
+        "choose"
+      ],
+      "signature_sha256": "47710527efaff4097edba09159f59fe1beb04c82beded9d8b2f911257e9cc5a8",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-boolean-tight",
+      "tex_required_tokens": [
+        "\\binom nk"
+      ],
+      "tex_sha256": "4ebab885dd474a04bfdedb84c245302e290a257b25383d593a650f291b325130",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_cor_boolean_total",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_cor_boolean_total"
+      ],
+      "id": "cor-boolean-total",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_cor_boolean_total": 1
+      },
+      "proof_sha256": "26793c54409379ae48ebfbea457e6c3022a438e39309020b829fc34a0683fa89",
+      "semantic_conclusions": [
+        "total Boolean-lattice antichain count is Stirling second n plus one k plus one"
+      ],
+      "semantic_premises": [
+        "Boolean lattice Bn",
+        "size k"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "BooleanAntichain",
+        "stirlingSecond"
+      ],
+      "signature_sha256": "93f22935ee09b682844ddbe37f37381142019ca44d7b8e32f5e254e5c0156dad",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:cor-boolean-total",
+      "tex_required_tokens": [
+        "total number",
+        "S(n+1,k+1)"
+      ],
+      "tex_sha256": "821585e5adc0d5ca029a6b5382b54c3e4cf7435bb105b7eaa1e65e879adf721e",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "non-rank-tight count is total minus rank-tight count"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-boolean-nontight",
+      "premise_ids": [
+        "Boolean lattice Bn",
+        "size k"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "the"
+      ],
+      "target_claim": "eq-boolean-nontight",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-boolean-nontight",
+      "tex_required_tokens": [],
+      "tex_sha256": "623eeddabe5bed7164a5029772242978c3482ecb98517b8abb6bdeb8f5c6f2bb"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_boolean_nontight",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_boolean_nontight"
+      ],
+      "id": "eq-boolean-nontight",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_boolean_nontight": 1
+      },
+      "proof_sha256": "2beb7e263c18924d11c2eedc17b93975238a413d900d047899b294e5dfde810a",
+      "semantic_conclusions": [
+        "non-rank-tight count is total minus rank-tight count"
+      ],
+      "semantic_premises": [
+        "Boolean lattice Bn",
+        "size k"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "BooleanLatticeNonRankTightAntichain",
+        "stirlingSecond",
+        "choose"
+      ],
+      "signature_sha256": "0b8d21e889176f8a6ec43ccec5d5160d87838746034dcf62ab87a3d5fa8eb7b9",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-boolean-nontight",
+      "tex_required_tokens": [
+        "S(n+1,k+1)-\\binom nk"
+      ],
+      "tex_sha256": "8da72404afb7fc0ca6d254d12efc72cf5e9cb928a7bb926b18516dd0694f07cb",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "rank-tight Boolean-lattice count is n choose k"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-boolean-tight",
+      "premise_ids": [
+        "Boolean lattice Bn",
+        "size k"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "The"
+      ],
+      "target_claim": "eq-boolean-tight",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-boolean-tight",
+      "tex_required_tokens": [],
+      "tex_sha256": "38c84ed8618f63e76acf5c78e1da8b30e8ae5090017c62772cf858ad1a1b5a09"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "non-rank-tight count is total minus rank-tight count"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-boolean-nontight",
+      "premise_ids": [
+        "Boolean lattice Bn",
+        "size k"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "subtract"
+      ],
+      "target_claim": "eq-boolean-nontight",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-boolean-nontight",
+      "tex_required_tokens": [],
+      "tex_sha256": "15edb30a35467635a300343a86f00f021ffbf6d1e9c55580bc5ebcffe8c8ba18"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "partition-lattice rank-tight count is Stirling times Cayley"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-partition-tight",
+      "premise_ids": [
+        "positive k",
+        "k at most n minus one"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "For"
+      ],
+      "target_claim": "eq-partition-tight",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-partition-tight",
+      "tex_required_tokens": [],
+      "tex_sha256": "6874479836ea1335aae1f398bbd910054b29272b0853b1e641f83706d3be0492"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_partition_tight",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_partition_tight"
+      ],
+      "id": "eq-partition-tight",
+      "premise_traces": [
+        {
+          "signature_token": "1 ≤ k",
+          "source_claim_id": "lead-partition-tight",
+          "source_text_tokens": [
+            "1\\le k\\le n-1"
+          ]
+        },
+        {
+          "signature_token": "k ≤ n - 1",
+          "source_claim_id": "lead-partition-tight",
+          "source_text_tokens": [
+            "1\\le k\\le n-1"
+          ]
+        }
+      ],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_partition_tight": 1
+      },
+      "proof_sha256": "9255a3b1f1907117085f1508bba7a1903aed10273dc6fcd4010a832809c161bd",
+      "semantic_conclusions": [
+        "partition-lattice rank-tight count is Stirling times Cayley"
+      ],
+      "semantic_premises": [
+        "positive k",
+        "k at most n minus one"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "PartitionRankTightAntichain",
+        "stirlingSecond"
+      ],
+      "signature_sha256": "4cdfd87140d45381ff506c50da3ecb8d391c9e3b4a8738a9163cee3987d6a247",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-partition-tight",
+      "tex_required_tokens": [
+        "S(n,k+1)(k+1)^{k-1}"
+      ],
+      "tex_sha256": "5a4e19dc3de33e7c29bb6b41c2198304559623fff1e844ae6929bc0ca7de6116",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_cor_partition_maximum",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_cor_partition_maximum"
+      ],
+      "id": "cor-partition-maximum",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_cor_partition_maximum": 1
+      },
+      "proof_sha256": "04c971ff671939c657c097632d001835f9044cf98dbc2f4eb6297eb8741469ec",
+      "semantic_conclusions": [
+        "maximum partition-lattice antichains have Cayley count"
+      ],
+      "semantic_premises": [
+        "positive n",
+        "maximum size n minus one"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "BooleanAntichain",
+        "Finpartition"
+      ],
+      "signature_sha256": "04a5e3eb336b2c2d790d738cdf7ffc0ae4f8bd048aab56c9b217030b13af965e",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:cor-partition-maximum",
+      "tex_required_tokens": [
+        "k=n-1",
+        "n^{n-2}"
+      ],
+      "tex_sha256": "0e226202bf2eadefce40c38c2d3ac0754e39e90f1452e1e2c3d2af8028f418fa",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "partition-lattice rank-tight count is Stirling times Cayley"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-partition-structure",
+      "premise_ids": [
+        "positive k",
+        "k at most n minus one"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Identify"
+      ],
+      "target_claim": "eq-partition-tight",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-partition-structure",
+      "tex_required_tokens": [],
+      "tex_sha256": "3ad213c7d2a083159aa8497c13216a788c1c96bb0361212ed07158f7f3da8053"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "partition-lattice rank-tight count is Stirling times Cayley"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-partition-count",
+      "premise_ids": [
+        "positive k",
+        "k at most n minus one"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "has"
+      ],
+      "target_claim": "eq-partition-tight",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-partition-count",
+      "tex_required_tokens": [],
+      "tex_sha256": "7216105ccbbe2c83988c8ca48b05fa7b719ce6e8246d31305a072ecde47fb0e6"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_cor_uniform_tight",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_cor_uniform_tight"
+      ],
+      "id": "cor-uniform-tight",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_cor_uniform_tight": 1
+      },
+      "proof_sha256": "005661c778418977ac3634926d9bd424a81cb42f679cb12bc923de40857eac12",
+      "semantic_conclusions": [
+        "zero branch",
+        "singleton branch",
+        "two-through-r branch",
+        "above-r branch"
+      ],
+      "semantic_premises": [
+        "two at most r at most n",
+        "size k"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "RankTightAntichain",
+        "uniformOn",
+        "choose"
+      ],
+      "signature_sha256": "d927acc618f4c04fe5a85e9a618c0b3b1bda0ca59a5f8f463ab7157500273b3e",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:cor-uniform-tight",
+      "tex_required_tokens": [
+        "2\\le r\\le n",
+        "R_{r,n}(k)",
+        "\\binom nr\\binom rk"
+      ],
+      "tex_sha256": "bdbdc719e694124e6ed13e5f1d2e3b9bd8f12d53e3d5faa0ef56aafe8502c100",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "zero branch",
+        "singleton branch",
+        "two-through-r branch",
+        "above-r branch"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-uniform-tight",
+      "premise_ids": [
+        "two at most r at most n",
+        "size k"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "corank-"
+      ],
+      "target_claim": "cor-uniform-tight",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-uniform-tight",
+      "tex_required_tokens": [],
+      "tex_sha256": "f195b9632acb04e41f6325b6550261f3ea5ac43ed040a1b8831ed627563427de"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_def_bell_square_egf",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_def_bell_square_egf"
+      ],
+      "id": "def-bell-square-egf",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_def_bell_square_egf": 1
+      },
+      "proof_sha256": "50d66b5e5e20685b7db36be04aa1f07393bda5a6333669a1baee3aab71fd7098",
+      "semantic_conclusions": [
+        "Bell-square exponential generating series has zero constant term and Bell-square over factorial positive coefficients"
+      ],
+      "semantic_premises": [
+        "Bell numbers",
+        "positive coefficient indices"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "PowerSeries.coeff",
+        "bellSquareEGF",
+        "bell"
+      ],
+      "signature_sha256": "7c7ac702fc428a5a003300cf20bbc9ff28a17bf4c8eeb97652fc3a07325cf31f",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:def-bell-square-egf",
+      "tex_required_tokens": [
+        "A(z)",
+        "\\mathsf B_m^2",
+        "m!"
+      ],
+      "tex_sha256": "a4eadb9c152afd835e037d371a3cc65a156d035e52968cd8e288e00a3a3f0936",
+      "trust_class": "author_definition"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "partition Boolean-pair count equals one half logarithmic Bell-square coefficient correction"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-partition-pairs",
+      "premise_ids": [
+        "positive n",
+        "partition lattice Pi n",
+        "Bell-square series A"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "Then"
+      ],
+      "target_claim": "eq-partition-pairs",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-partition-pairs",
+      "tex_required_tokens": [],
+      "tex_sha256": "843d73859eff30db672f878d03512112ec47a18a7d11e3c4849922b4fd519874"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_partition_pairs",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_partition_pairs"
+      ],
+      "id": "eq-partition-pairs",
+      "premise_traces": [
+        {
+          "signature_token": "0 < n",
+          "source_claim_id": "lead-partition-pairs",
+          "source_text_tokens": [
+            "n\\ge1"
+          ]
+        }
+      ],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_partition_pairs": 1
+      },
+      "proof_sha256": "00f5dc28cf25dc4d5352993adaac0706a764984122c0987863b0a98401d8c4b6",
+      "semantic_conclusions": [
+        "partition Boolean-pair count equals one half logarithmic Bell-square coefficient correction"
+      ],
+      "semantic_premises": [
+        "positive n",
+        "partition lattice Pi n",
+        "Bell-square series A"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "BooleanAntichain",
+        "Finpartition",
+        "bellSquareLogSeries",
+        "0 < n"
+      ],
+      "signature_sha256": "ce2ec5e37a6ec8000c6ea0247be297ff5bf7db9f8199b4b8c03031023a3ec0ab",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-partition-pairs",
+      "tex_required_tokens": [
+        "|\\cC_2(\\Pi_n)|",
+        "\\log(1+A(z))",
+        "-2\\mathsf B_n+1"
+      ],
+      "tex_sha256": "f5aba134c07255b004e41612530fe722fec298c17a478a1505202d8dcf2a62fa",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_cor_partition_pairs_initial",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_cor_partition_pairs_initial"
+      ],
+      "id": "cor-partition-pairs-initial",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_cor_partition_pairs_initial": 1
+      },
+      "proof_sha256": "12971060217dcfc0333107079cf843e39ff6603b08291d2ccf6bf4202738e577",
+      "semantic_conclusions": [
+        "first seven partition Boolean-pair counts are zero zero three forty-five six-hundred-twenty nine-thousand-seven-hundred-fifty one-hundred-eighty-three-thousand-six-hundred-eighty"
+      ],
+      "semantic_premises": [
+        "positive indices n equals one through seven"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "List.ofFn",
+        "PartitionPairCount"
+      ],
+      "signature_sha256": "439134b98c450caf19e35e3da2a2fa6638cb4418da4219367dd7bfd8c38bba58",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:cor-partition-pairs-initial",
+      "tex_required_tokens": [
+        "n=1,2,\\ldots",
+        "183680"
+      ],
+      "tex_sha256": "6bb97c5cb96870eb75ca94b29e51372f414df7d11ab566763eba2fa271c49cb1",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "partition Boolean-pair count equals one half logarithmic Bell-square coefficient correction"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-partition-pairs-lower",
+      "premise_ids": [
+        "positive n",
+        "partition lattice Pi n",
+        "Bell-square series A"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "For"
+      ],
+      "target_claim": "eq-partition-pairs",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-partition-pairs-lower",
+      "tex_required_tokens": [],
+      "tex_sha256": "f81653ccd84a74ed7749b6b3aa06207162e3e764e63179ae0d74a31023737082"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "partition Boolean-pair count equals one half logarithmic Bell-square coefficient correction"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-partition-pairs-log",
+      "premise_ids": [
+        "positive n",
+        "partition lattice Pi n",
+        "Bell-square series A"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "the"
+      ],
+      "target_claim": "eq-partition-pairs",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-partition-pairs-log",
+      "tex_required_tokens": [],
+      "tex_sha256": "ef2053fe8d7f31cccec59966ad1cef9c2385175c1b6b12320aa75503d1f037e0"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "partition Boolean-pair count equals one half logarithmic Bell-square coefficient correction"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-partition-pairs-substitute",
+      "premise_ids": [
+        "positive n",
+        "partition lattice Pi n",
+        "Bell-square series A"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Substitute"
+      ],
+      "target_claim": "eq-partition-pairs",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-partition-pairs-substitute",
+      "tex_required_tokens": [],
+      "tex_sha256": "6e9aa33e3e397fd1bc7d029105139d54cc34e1201de49dc38c3e25f3123ccd35"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_def_direct_sum_count",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_def_direct_sum_count"
+      ],
+      "id": "def-direct-sum-count",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_def_direct_sum_count": 1
+      },
+      "proof_sha256": "b4fe609c8b467158536631ecfb67336983b25972d4bb7fab3837dbd96f7b0622",
+      "semantic_conclusions": [
+        "D is unordered positive-profile GL orbit-stabilizer sum divided by k factorial"
+      ],
+      "semantic_premises": [
+        "finite field of order q",
+        "one at most k at most d"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "directSumProfileCount",
+        "generalLinearCard"
+      ],
+      "signature_sha256": "4f45f21fe85da89b82b99c31488c6b00cfa67bc34f6fd4f91bb90f3d9af29af7",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:def-direct-sum-count",
+      "tex_required_tokens": [
+        "D_{d,k}(q)",
+        "d_i\\ge1",
+        "g_d(q)"
+      ],
+      "tex_sha256": "9ecc9dce0cf898e387b6fb60e67783c7a7d539580f07121f3d3aa28e79ea1520",
+      "trust_class": "author_definition"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_thm_subspace_correspondence",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_thm_subspace_correspondence"
+      ],
+      "id": "thm-subspace-correspondence",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_thm_subspace_correspondence": 1
+      },
+      "proof_sha256": "0759a7c22e45d25341322a2e39e14b27226235311b04462a00fba6854a227d31",
+      "semantic_conclusions": [
+        "Boolean antichain maps to literal common-meet quotient and nonzero unordered internal summands",
+        "inverse maps summands to literal coatom subspaces",
+        "codimension lies between k and n"
+      ],
+      "semantic_premises": [
+        "finite field",
+        "n-dimensional vector space",
+        "size k"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "subspaceUnorderedSigmaEquiv",
+        "UnorderedInternalDecomposition",
+        "Submodule",
+        "Module.finrank"
+      ],
+      "signature_sha256": "2bf763c5c95b8df1a3b874e663e8e211dde03fc7003753726e127efee30e0939",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:thm-subspace-correspondence",
+      "tex_required_tokens": [
+        "corresponds uniquely",
+        "codimension $d\\ge k$",
+        "unordered direct-sum decomposition"
+      ],
+      "tex_sha256": "84f28f18369fb4970ff4194d64a0bc3b7bf77b952f9e67b8cbd2c3b7eca28b4f",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "all-size subspace-lattice count is Gaussian codimension sum of direct-sum profile counts"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "lead-subspace-count",
+      "premise_ids": [
+        "finite field of order q",
+        "one at most k",
+        "dimension n"
+      ],
+      "relation_kind": "restates",
+      "required_text_tokens": [
+        "Hence"
+      ],
+      "target_claim": "eq-subspace-count",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:lead-subspace-count",
+      "tex_required_tokens": [],
+      "tex_sha256": "6c13a346c0ee5e2e1c72781984c52951167c82d0a3c0bbe25cf5b7d91e7db8e6"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_subspace_count",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_subspace_count"
+      ],
+      "id": "eq-subspace-count",
+      "premise_traces": [
+        {
+          "signature_token": "1 ≤ k",
+          "source_claim_id": "lead-subspace-count",
+          "source_text_tokens": [
+            "k\\ge1"
+          ]
+        }
+      ],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_subspace_count": 1
+      },
+      "proof_sha256": "acfcd774d9428c41bb4b93f8904bf4c64a24d27350b8fe264fbdb5c95f8ea809",
+      "semantic_conclusions": [
+        "all-size subspace-lattice count is Gaussian codimension sum of direct-sum profile counts"
+      ],
+      "semantic_premises": [
+        "finite field of order q",
+        "one at most k",
+        "dimension n"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "BooleanAntichain",
+        "Submodule",
+        "gaussianCoefficient",
+        "directSumProfileCount"
+      ],
+      "signature_sha256": "81a72af66744eb062a517324214aa2feeb235b5257547b716baf50d4900dab24",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-subspace-count",
+      "tex_required_tokens": [
+        "|\\cC_k(\\mathcal S(\\mathbb F_q^n))|",
+        "\\sum_{d=k}^n",
+        "D_{d,k}(q)"
+      ],
+      "tex_sha256": "6b06b10b0a244b470f129a3b3eedae9070e63ff19d6897948fc10ad5a27e34ac",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_thm_subspace_zero_layer",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_thm_subspace_zero_layer"
+      ],
+      "id": "thm-subspace-zero-layer",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_thm_subspace_zero_layer": 1
+      },
+      "proof_sha256": "530393f88898ece2e3e439c2a5cf9d103e6744cd2af27c91c995e2b6e8b010e2",
+      "semantic_conclusions": [
+        "zero-size subspace antichain count equals one"
+      ],
+      "semantic_premises": [
+        "finite subspace lattice"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "BooleanAntichain",
+        "Submodule"
+      ],
+      "signature_sha256": "207a673d8ac826dda4526471ff43bdd675b1ebce523417b316d51a2fd05f5809",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:thm-subspace-zero-layer",
+      "tex_required_tokens": [
+        "|\\cC_0|=1",
+        "all Boolean antichains"
+      ],
+      "tex_sha256": "9aa0b0afe427443c284f4c310377dfd5cdbfc72a050d792593504835f9d7f809",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "Boolean antichain maps to literal common-meet quotient and nonzero unordered internal summands",
+        "inverse maps summands to literal coatom subspaces",
+        "codimension lies between k and n"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-subspace-correspondence",
+      "premise_ids": [
+        "finite field",
+        "n-dimensional vector space",
+        "size k"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "Let"
+      ],
+      "target_claim": "thm-subspace-correspondence",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-subspace-correspondence",
+      "tex_required_tokens": [],
+      "tex_sha256": "73ad79f836d02963dede99802834addc8a96cb3216de53720913d2b15d8591a9"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "all-size subspace-lattice count is Gaussian codimension sum of direct-sum profile counts"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-subspace-count",
+      "premise_ids": [
+        "finite field of order q",
+        "one at most k",
+        "dimension n"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "There"
+      ],
+      "target_claim": "eq-subspace-count",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-subspace-count",
+      "tex_required_tokens": [],
+      "tex_sha256": "f57923160f3a7a9b372bcbe619ebec4403d78cd8cc79cf7a109c526252b42933"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_cor_graphic_simplified_forests",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_cor_graphic_simplified_forests"
+      ],
+      "id": "cor-graphic-simplified-forests",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_cor_graphic_simplified_forests": 1
+      },
+      "proof_sha256": "361c07de91ce95a0fa4b7b85a102b14285d027a05ea50a4a5e82c952cbe26e31",
+      "semantic_conclusions": [
+        "maximum flat-lattice Boolean antichains biject with native spanning forests of the simplified graph"
+      ],
+      "semantic_premises": [
+        "finite graph allowing loops and parallel edges"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "cycleMatroid",
+        "GraphSpanningForests",
+        "graphSimplifiedGraph"
+      ],
+      "signature_sha256": "6ffac0ca252b0e39f0429408d12d33d2d989e117f97b65f7b3b3f6e0fb8cae5b",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:cor-graphic-simplified-forests",
+      "tex_required_tokens": [
+        "maximum Boolean antichains",
+        "spanning forests",
+        "simplification of $G$"
+      ],
+      "tex_sha256": "14d86fe185c841c0c160366a3723d5b59963c2134d78798ceca42b9664c9d5e5",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_cor_graphic_size_specializations",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_cor_graphic_size_specializations"
+      ],
+      "id": "cor-graphic-size-specializations",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_cor_graphic_size_specializations": 1
+      },
+      "proof_sha256": "ebcde9cd85ca94e175d896452f717dfa4d33664bb737a5f10e97a985c493fcf5",
+      "semantic_conclusions": [
+        "maximum antichain size is vertex count minus component count",
+        "simple case uses original graph forests",
+        "connected simple case uses original spanning trees"
+      ],
+      "semantic_premises": [
+        "finite graph G"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "graphConnectedComponentCount",
+        "GraphIsSimple",
+        "GraphIsConnected"
+      ],
+      "signature_sha256": "853f2a2f591bff7203a163e965d3c43b43ae72c1c6cf6ec4d1a999e81a011c42",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:cor-graphic-size-specializations",
+      "tex_required_tokens": [
+        "|V(G)|-c(G)",
+        "If $G$ is simple",
+        "spanning trees"
+      ],
+      "tex_sha256": "d90ce09d096679b44ada423540ce17078866ed719a400a4061101a6cb79afa0b",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_cor_graphic_weighted",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_cor_graphic_weighted"
+      ],
+      "id": "cor-graphic-weighted",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_cor_graphic_weighted": 1
+      },
+      "proof_sha256": "0d808b7776c34a45056a88dacb051cda734d93551acba21f2291dd634848e5cd",
+      "semantic_conclusions": [
+        "weighted antichain decomposition equals original multigraph spanning-forest polynomial with exact parallel fibres"
+      ],
+      "semantic_premises": [
+        "finite graph G",
+        "original edge variables"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "graphSpanningForestPolynomial",
+        "graphParallelEdgeClass",
+        "MvPolynomial.X"
+      ],
+      "signature_sha256": "e416505a094c6340eb3ca949b47a9a43af0a608622ef141263e086b287248602",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:cor-graphic-weighted",
+      "tex_required_tokens": [
+        "edge variable $x_e$",
+        "parallel class"
+      ],
+      "tex_sha256": "395ba196fa78681d1d3ba5844e8161b5f2fce4d91a8b68526f889f0e4da25bc2",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "relation",
+      "conclusion_ids": [
+        "maximum flat-lattice Boolean antichains biject with native spanning forests of the simplified graph"
+      ],
+      "forbidden_text_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "id": "proof-graphic",
+      "premise_ids": [
+        "finite graph allowing loops and parallel edges"
+      ],
+      "relation_kind": "proves",
+      "required_text_tokens": [
+        "The"
+      ],
+      "target_claim": "cor-graphic-simplified-forests",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:proof-graphic",
+      "tex_required_tokens": [],
+      "tex_sha256": "90a133464044f6edde217ecc322ac1d7930e29ecc172a5568a679c9b824f690e"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_projective_plane_all",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_projective_plane_all"
+      ],
+      "id": "eq-projective-plane-all",
+      "premise_traces": [],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_projective_plane_all": 1
+      },
+      "proof_sha256": "3d7684efbdce92ec9f5bf619716337a057317839b3062ee783edfd2e6621de7d",
+      "semantic_conclusions": [
+        "complete zero-through-three Boolean-antichain distribution",
+        "all higher layers vanish",
+        "no Desarguesian premise"
+      ],
+      "semantic_premises": [
+        "finite incidence projective plane of order q",
+        "N equals q squared plus q plus one"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "incidencePlaneMatroid",
+        "BooleanAntichain",
+        "Configuration.ProjectivePlane.order"
+      ],
+      "signature_sha256": "6cf9e6040dd3cc83d1cb95213b6d5cc0084bd83a65d20cc38e04ab443dca8d0d",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-projective-plane-all",
+      "tex_required_tokens": [
+        "(c_0,c_1,c_2,c_3)",
+        "Nq^2",
+        "N\\binom{q+1}3"
+      ],
+      "tex_sha256": "38e7b27ca54149f5cbb0b9476d73870ccdefb85836440e673bdbf67b50fc34b6",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "formal",
+      "declaration": "BooleanAntichainsKernel.atomic_eq_projective_count",
+      "expected_project_axioms": [],
+      "formal_source": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "formal_tokens": [
+        "atomic_eq_projective_count"
+      ],
+      "id": "eq-projective-count",
+      "premise_traces": [
+        {
+          "signature_token": "1 ≤ r",
+          "source_claim_id": "eq-projective-count",
+          "source_text_tokens": [
+            "r\\ge1"
+          ]
+        }
+      ],
+      "proof_forbidden_tokens": [
+        "sorryAx",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "proof_required_token_counts": {
+        "atomic_eq_projective_count": 1
+      },
+      "proof_sha256": "2d6a84e2b842353e08281748e653425dd3a3c6677c3717bfae1ffe090771d87c",
+      "semantic_conclusions": [
+        "maximum projective-geometry antichain count is unordered independent projective-point product"
+      ],
+      "semantic_premises": [
+        "finite field of order q",
+        "positive rank r"
+      ],
+      "signature_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate",
+        "Provider"
+      ],
+      "signature_required_tokens": [
+        "Projectivization.Subspace",
+        "ProjectiveIndependentSet",
+        "factorial"
+      ],
+      "signature_sha256": "30fda6281294b90af88fc992d6776bc6b34236f693b50ca374ad3ce72226c589",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:eq-projective-count",
+      "tex_required_tokens": [
+        "|\\cC_r(PG(r-1,q))|",
+        "q^r-q^i",
+        "q-1"
+      ],
+      "tex_sha256": "3056e6ed907699387872c84035fa2bb55195d13bc262f7844c32b1eec9077dfe",
+      "trust_class": "kernel_derived"
+    },
+    {
+      "binding_kind": "scope",
+      "id": "scope-formalization-status",
+      "scope_reason": "This sentence reports the verification status and trust boundary of the companion Lean development; it is not a mathematical premise or theorem.",
+      "tex_forbidden_tokens": [
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "tex_locator": "atomic:scope-formalization-status",
+      "tex_required_tokens": [
+        "Lean~4",
+        "mathlib",
+        "kernel-only",
+        "axiom audits"
+      ],
+      "tex_sha256": "48e5122a411c5029d22f2d6c3babb2407fb69e3aff16f3a40eba9331070b742c",
+      "trust_class": "scope_only"
+    }
+  ],
+  "commands": [
+    {
+      "command": [
+        "python",
+        ".paper-infrastructure/paper_infrastructure.py",
+        "--project",
+        ".",
+        "verification-receipt-verify",
+        "--policy",
+        ".paper-infrastructure/lean-atomic-claims-verification.json"
+      ],
+      "cwd": ".",
+      "name": "signed-atomic-kernel-receipt",
+      "required_output_tokens": [
+        "verification_receipt=valid receipt_id=boolean-antichains-atomic-paper-claims"
+      ]
+    }
+  ],
+  "declaration_checker": {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "--stdin"
+    ],
+    "cwd": "lean4",
+    "imports": [
+      "BooleanAntichainsKernel.AtomicPaperClaimBindings"
+    ],
+    "kind": "lean",
+    "project_axiom_prefixes": [
+      "BooleanAntichainsKernel."
+    ]
+  },
+  "environments": [
+    "definition",
+    "assumption",
+    "lemma",
+    "theorem",
+    "proposition",
+    "corollary",
+    "remark",
+    "equation",
+    "proof"
+  ],
+  "external_results": [],
+  "formal_sources": [
+    {
+      "forbidden_tokens": [
+        "sorry",
+        "admit",
+        "native_decide",
+        "axiom ",
+        "opaque ",
+        "ofReduceBool",
+        "LiteratureOutput",
+        "ReferenceGate"
+      ],
+      "path": "lean4/BooleanAntichainsKernel/AtomicPaperClaimBindings.lean",
+      "required_tokens": [
+        "atomic_def_boolean_atoms",
+        "atomic_lem_full_height",
+        "atomic_lem_basis_span",
+        "atomic_def_reconstruction_gap",
+        "atomic_thm_global_gap_criterion",
+        "atomic_eq_global_enumerator",
+        "atomic_thm_global_boundaries",
+        "atomic_def_hom_transform",
+        "atomic_eq_product_transform",
+        "atomic_eq_product_convolution",
+        "atomic_def_rank_profile",
+        "atomic_cor_rank_profile_polymatroid",
+        "atomic_cor_rank_profile_tight",
+        "atomic_thm_uniform_base_layers",
+        "atomic_eq_uniform_all",
+        "atomic_thm_uniform_distributions",
+        "atomic_thm_size_two_structural",
+        "atomic_eq_size_two_mobius",
+        "atomic_thm_distributive_bijection",
+        "atomic_eq_distributive_polynomial",
+        "atomic_thm_main_bijection",
+        "atomic_eq_main_count",
+        "atomic_eq_weighted_polynomial",
+        "atomic_eq_weighted_count",
+        "atomic_thm_interval_bijection",
+        "atomic_eq_interval_weighted",
+        "atomic_def_rank_tight",
+        "atomic_def_rank_tight_equivalent",
+        "atomic_cor_rank_tight_partition",
+        "atomic_eq_rank_tight_count",
+        "atomic_cor_rank_tight_fiber",
+        "atomic_eq_boolean_tight",
+        "atomic_cor_boolean_total",
+        "atomic_eq_boolean_nontight",
+        "atomic_eq_partition_tight",
+        "atomic_cor_partition_maximum",
+        "atomic_cor_uniform_tight",
+        "atomic_def_bell_square_egf",
+        "atomic_eq_partition_pairs",
+        "atomic_cor_partition_pairs_initial",
+        "atomic_def_direct_sum_count",
+        "atomic_thm_subspace_correspondence",
+        "atomic_eq_subspace_count",
+        "atomic_thm_subspace_zero_layer",
+        "atomic_cor_graphic_simplified_forests",
+        "atomic_cor_graphic_size_specializations",
+        "atomic_cor_graphic_weighted",
+        "atomic_eq_projective_plane_all",
+        "atomic_eq_projective_count"
+      ],
+      "scan_mode": "lean-executable",
+      "sha256": "883273183327aa87786abc38c8da84efb811fd8f4058173cb2cad18f017ea4d7"
+    }
+  ],
+  "manuscript": "paper/matroid_boolean_antichains.tex",
+  "require_complete_coverage": true,
+  "require_proof_term_tokens": true,
+  "require_signature_tokens": true,
+  "schema_version": 2,
+  "semantic_contract_sha256": "64e8eed9aa63a35d1f5e8168f9edb9d1cc881b6144d538270f27dafcc599a7f9",
+  "strict_declarations": true
+}

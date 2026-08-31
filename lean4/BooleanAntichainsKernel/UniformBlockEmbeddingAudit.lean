@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.UniformBlockEmbedding
+
+#print axioms BooleanAntichainsKernel.UniformBlockData.toFlat_val_of_proper
+#print axioms BooleanAntichainsKernel.UniformBlockData.toFlat_injective
+#print axioms BooleanAntichainsKernel.UniformBlockData.toEmbedding

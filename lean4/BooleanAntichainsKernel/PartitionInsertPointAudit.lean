@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.PartitionInsertPoint
+
+#print axioms BooleanAntichainsKernel.partitionInsertPoint_setoid
+#print axioms BooleanAntichainsKernel.partitionInsertPoint_old_rel
+#print axioms BooleanAntichainsKernel.partitionInsertPoint_none_some
+#print axioms BooleanAntichainsKernel.partitionInsertPoint_new_block_member
+#print axioms BooleanAntichainsKernel.partitionInsertPoint_none_block
+#print axioms BooleanAntichainsKernel.partitionInsertPoint_some_block

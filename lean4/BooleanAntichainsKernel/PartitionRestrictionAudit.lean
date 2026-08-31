@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.PartitionRestriction
+
+#print axioms BooleanAntichainsKernel.partitionRestrict_mem
+#print axioms BooleanAntichainsKernel.partitionRestrict_mono
+#print axioms BooleanAntichainsKernel.partitionRestrict_refinement_parts

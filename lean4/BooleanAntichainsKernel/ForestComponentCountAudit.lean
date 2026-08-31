@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.ForestComponentCount
+
+#print axioms BooleanAntichainsKernel.simpleForest_component_tree_count
+#print axioms BooleanAntichainsKernel.simpleForest_component_count
+#print axioms BooleanAntichainsKernel.simpleForest_component_count_nat
+#print axioms BooleanAntichainsKernel.graphForest_component_count
+#print axioms BooleanAntichainsKernel.graphForest_size_eq
+#print axioms BooleanAntichainsKernel.graphForest_size_le

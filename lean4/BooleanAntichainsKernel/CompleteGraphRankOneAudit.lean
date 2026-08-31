@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.CompleteGraphRankOne
+
+#print axioms BooleanAntichainsKernel.completeMatroid_loops_empty
+#print axioms BooleanAntichainsKernel.completeMatroid_singleton_closure
+#print axioms BooleanAntichainsKernel.completeRankOneFlat_singleton
+#print axioms BooleanAntichainsKernel.completeRankOneRepresentativeEquiv
+#print axioms BooleanAntichainsKernel.completeRankOneRepresentativeEquiv_val
+#print axioms BooleanAntichainsKernel.completeRankOneRepresentativeEquiv_singleton

@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.HomEnumeration
+
+#print axioms BooleanAntichainsKernel.topBooleanEmbeddingDomainEquiv
+#print axioms BooleanAntichainsKernel.topBooleanHom_count_eq_eta
+#print axioms BooleanAntichainsKernel.topBooleanHomProductEquiv
+#print axioms BooleanAntichainsKernel.etaCount_product

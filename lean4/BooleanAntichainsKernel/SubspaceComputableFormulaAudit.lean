@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.SubspaceComputableFormula
+
+#print axioms BooleanAntichainsKernel.positiveDimensionEquivBounded
+#print axioms BooleanAntichainsKernel.positiveDimension_sum_eq_bounded
+#print axioms BooleanAntichainsKernel.directSumProfileCount_eq_bounded
+#print axioms BooleanAntichainsKernel.subspace_count_eq_bounded

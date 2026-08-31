@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.CycleMatroidComponents
+
+#print axioms BooleanAntichainsKernel.forestSpansComponents_component_count
+#print axioms BooleanAntichainsKernel.cycleMatroid_isBase_iff_spans_components
+#print axioms BooleanAntichainsKernel.cycleMatroid_rank_add_components
+#print axioms BooleanAntichainsKernel.cycleMatroid_rank
+#print axioms BooleanAntichainsKernel.cycleMatroid_base_card

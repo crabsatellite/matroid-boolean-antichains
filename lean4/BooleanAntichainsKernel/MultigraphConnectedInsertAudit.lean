@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.MultigraphConnectedInsert
+
+#print axioms BooleanAntichainsKernel.graphReachable_of_same_link
+#print axioms BooleanAntichainsKernel.graphReachable_insert_iff
+#print axioms BooleanAntichainsKernel.graphComponentCount_insert_of_reachable
+#print axioms BooleanAntichainsKernel.graphEdgeForest_insert_not_connected
+#print axioms BooleanAntichainsKernel.graphEdgeForest_insert_iff

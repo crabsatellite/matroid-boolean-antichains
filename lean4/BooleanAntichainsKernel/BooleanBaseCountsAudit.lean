@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.BooleanBaseCounts
+
+#print axioms BooleanAntichainsKernel.booleanEmbedding_size_le_dimension
+#print axioms BooleanAntichainsKernel.booleanOne_count
+#print axioms BooleanAntichainsKernel.booleanZero_count_succ

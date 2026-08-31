@@ -1,0 +1,44 @@
+# Internal orchestration and generated evidence
+.paper-infrastructure/
+.proof-engine/
+tmp/
+references/
+project-state.json
+paper-build.cmd
+paper-build.ps1
+proof-engine.cmd
+proof-engine.ps1
+verify_all.ps1
+
+# Local build products and receipts
+output/*
+!output/matroid_boolean_antichains.pdf
+lean4/p/
+lean4/.lake/
+lean4/.cache/
+lean4/build/
+*.olean
+*.ilean
+*.trace
+*.pyc
+__pycache__/
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+
+# Internal review-language and generation artifacts
+paper/matroid_boolean_antichains_zh_review.tex
+paper/build_chinese_review.ps1
+paper/bilingual-unit-alignment.json
+paper/bilingual-unit-alignment.md
+scripts/build_bilingual_review.py
+scripts/build_formal_contract.py
+scripts/build_proof_engine_closure_evidence.py
+scripts/build_reference_evidence.py
+scripts/validate_formal_contract_draft.py
+scripts/verify_proof_engine_graph_receipt.py
+research/ATTACK.md
+research/proof-engine-*

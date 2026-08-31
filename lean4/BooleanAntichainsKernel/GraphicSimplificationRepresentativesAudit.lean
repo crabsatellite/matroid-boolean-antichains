@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.GraphicSimplificationRepresentatives
+
+#print axioms BooleanAntichainsKernel.graphicGroundRankOneEquiv
+#print axioms BooleanAntichainsKernel.graphicGroundOriginalLabel_injective
+#print axioms BooleanAntichainsKernel.graphicGroundSimpleLabel_injective
+#print axioms BooleanAntichainsKernel.graphicGroundRepresentative_in_class
+#print axioms BooleanAntichainsKernel.graphicGroundRepresentative_ends
+#print axioms BooleanAntichainsKernel.graphicGroundSimpleLabel_range
+#print axioms BooleanAntichainsKernel.graphicGroundRepresentative_support

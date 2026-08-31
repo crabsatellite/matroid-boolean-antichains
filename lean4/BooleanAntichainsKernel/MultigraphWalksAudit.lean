@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.MultigraphWalks
+
+#print axioms BooleanAntichainsKernel.LabelledGraphWalk.edgeLabels_nodup_iff
+#print axioms BooleanAntichainsKernel.LabelledGraphWalk.edges_mem
+#print axioms BooleanAntichainsKernel.LabelledGraphWalk.isCycle_mono
+#print axioms BooleanAntichainsKernel.LabelledGraphWalk.edges_append
+#print axioms BooleanAntichainsKernel.GraphEdgeForest.mono
+#print axioms BooleanAntichainsKernel.graphEdgeForest_empty

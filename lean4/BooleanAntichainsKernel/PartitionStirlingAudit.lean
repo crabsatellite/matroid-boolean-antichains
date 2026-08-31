@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.PartitionStirling
+
+#print axioms BooleanAntichainsKernel.partitionsWithBlocks_empty_zero
+#print axioms BooleanAntichainsKernel.partitionsWithBlocks_empty_succ
+#print axioms BooleanAntichainsKernel.partitionsWithBlocks_zero_nonempty
+#print axioms BooleanAntichainsKernel.finitePartitionCount_succ_succ
+#print axioms BooleanAntichainsKernel.finitePartitionCount_eq_stirling
+#print axioms BooleanAntichainsKernel.partitionsWithBlocks_card

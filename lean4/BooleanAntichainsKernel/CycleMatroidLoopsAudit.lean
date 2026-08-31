@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.CycleMatroidLoops
+
+#print axioms BooleanAntichainsKernel.graphReachable_empty_iff
+#print axioms BooleanAntichainsKernel.graphReachable_singleton_iff
+#print axioms BooleanAntichainsKernel.cycleMatroid_isLoop_iff
+#print axioms BooleanAntichainsKernel.cycleMatroid_loops_eq
+#print axioms BooleanAntichainsKernel.cycleMatroid_isNonloop_ends_iff

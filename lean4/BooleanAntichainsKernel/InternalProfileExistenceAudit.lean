@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.InternalProfileExistence
+
+#print axioms BooleanAntichainsKernel.coordinateComponents_iSupIndep
+#print axioms BooleanAntichainsKernel.coordinateComponent_finrank
+#print axioms BooleanAntichainsKernel.sizedInternalOfProfile
+#print axioms BooleanAntichainsKernel.sizedInternal_nonempty_of_profile

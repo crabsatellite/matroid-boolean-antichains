@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.UniformRankTight
+
+#print axioms BooleanAntichainsKernel.uniformOn_contract_corank
+#print axioms BooleanAntichainsKernel.uniformOn_rankTight_count_positive
+#print axioms BooleanAntichainsKernel.uniform_rankTight_enumeration

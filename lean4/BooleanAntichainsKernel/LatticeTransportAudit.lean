@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.LatticeTransport
+
+#print axioms BooleanAntichainsKernel.booleanAntichainOrderIsoEquiv
+#print axioms BooleanAntichainsKernel.antichainAtoms_mapFamily
+#print axioms BooleanAntichainsKernel.spanAtomFinset_mapFamily

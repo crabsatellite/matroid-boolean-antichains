@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.HeightGapEndpoints
+
+#print axioms BooleanAntichainsKernel.literal_height_gap_criterion
+#print axioms BooleanAntichainsKernel.literal_height_gap_enumerator
+#print axioms BooleanAntichainsKernel.booleanAntichain_count_above_height
+#print axioms BooleanAntichainsKernel.booleanAntichain_count_zero

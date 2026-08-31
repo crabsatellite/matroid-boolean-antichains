@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.PartitionBellSquareSeries
+
+#print axioms BooleanAntichainsKernel.bellSquareEGF_coeff
+#print axioms BooleanAntichainsKernel.bellSquareEGF_constantCoeff
+#print axioms BooleanAntichainsKernel.bellSquareEGF_coeff_pow_zero
+#print axioms BooleanAntichainsKernel.bellSquareLog_term_support
+#print axioms BooleanAntichainsKernel.bellSquareLogSeries_coeff
+#print axioms BooleanAntichainsKernel.bellSquareLogSeries_constantCoeff

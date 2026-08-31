@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.FlatIntervalMinor
+
+#print axioms BooleanAntichainsKernel.flatIntervalMinor_total_rank
+#print axioms BooleanAntichainsKernel.flatIntervalMinorOrderIso
+#print axioms BooleanAntichainsKernel.flatIntervalMinor_loops_empty
+#print axioms BooleanAntichainsKernel.flatInterval_minor_class

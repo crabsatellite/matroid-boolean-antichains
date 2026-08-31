@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.SubspaceDimensions
+
+#print axioms BooleanAntichainsKernel.OrderedInternalDecomposition.finrank_eq_sum
+#print axioms BooleanAntichainsKernel.subspace_codimension_profile
+#print axioms BooleanAntichainsKernel.standardSubspace_codimension_bounds

@@ -1,0 +1,10 @@
+import BooleanAntichainsKernel.PartitionCoarsening
+
+#print axioms BooleanAntichainsKernel.setoidTransportOrderIso
+#print axioms BooleanAntichainsKernel.setoidTransportOrderIso_rel
+#print axioms BooleanAntichainsKernel.finitePartitionBlockOf_surjective
+#print axioms BooleanAntichainsKernel.finitePartitionBlockOf_ker
+#print axioms BooleanAntichainsKernel.partitionCoarseningSetoidOrderIso
+#print axioms BooleanAntichainsKernel.partitionCoarseningSetoidOrderIso_rel
+#print axioms BooleanAntichainsKernel.partitionCoarseningOrderIso
+#print axioms BooleanAntichainsKernel.partitionCoarseningOrderIso_same_block

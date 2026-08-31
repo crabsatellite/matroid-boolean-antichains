@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.CycleMatroidClosure
+
+#print axioms BooleanAntichainsKernel.cycleMatroid_mem_closure_forest_iff
+#print axioms BooleanAntichainsKernel.cycleMatroid_mem_closure_iff
+#print axioms BooleanAntichainsKernel.cycleMatroid_closure_eq
+#print axioms BooleanAntichainsKernel.cycleMatroid_isFlat_iff_reach_closed

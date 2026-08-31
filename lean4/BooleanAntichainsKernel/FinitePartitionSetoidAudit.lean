@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.FinitePartitionSetoid
+
+#print axioms BooleanAntichainsKernel.finitePartitionSetoid_same_block
+#print axioms BooleanAntichainsKernel.finitePartitionSetoid_classes
+#print axioms BooleanAntichainsKernel.finitePartitionSetoid_ofSetoid
+#print axioms BooleanAntichainsKernel.finitePartition_ofSetoid_setoid
+#print axioms BooleanAntichainsKernel.finitePartitionSetoid_le_iff
+#print axioms BooleanAntichainsKernel.finitePartitionSetoidOrderIso

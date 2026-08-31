@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.SubspaceUnorderedCorrespondence
+
+#print axioms BooleanAntichainsKernel.subspaceUnorderedSigmaEquiv
+#print axioms BooleanAntichainsKernel.subspaceUnorderedSigmaEquiv_atoms
+#print axioms BooleanAntichainsKernel.subspaceUnorderedSigmaEquiv_coatom_formula
+#print axioms BooleanAntichainsKernel.subspace_count_by_unordered_quotients

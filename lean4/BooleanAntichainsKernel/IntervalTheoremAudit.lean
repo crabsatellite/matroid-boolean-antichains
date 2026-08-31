@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.IntervalTheorem
+
+#print axioms BooleanAntichainsKernel.intervalAntichainEquivBasis
+#print axioms BooleanAntichainsKernel.interval_parallelClassElements
+#print axioms BooleanAntichainsKernel.interval_weighted_basis_polynomial

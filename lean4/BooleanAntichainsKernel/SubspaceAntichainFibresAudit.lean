@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.SubspaceAntichainFibres
+
+#print axioms BooleanAntichainsKernel.subspaceAntichainFibreEquivQuotient
+#print axioms BooleanAntichainsKernel.subspaceAntichainFibreEquivQuotient_val
+#print axioms BooleanAntichainsKernel.subspaceAntichainFibre_atoms

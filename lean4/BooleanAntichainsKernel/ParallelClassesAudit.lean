@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.ParallelClasses
+
+#print axioms BooleanAntichainsKernel.elementFlat_eq_of_parallelClass
+#print axioms BooleanAntichainsKernel.parallelClassElements_disjoint
+#print axioms BooleanAntichainsKernel.elementFlat_injOn_indep
+#print axioms BooleanAntichainsKernel.basisClassSet_isSimplifiedBasis

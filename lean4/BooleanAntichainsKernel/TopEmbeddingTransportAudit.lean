@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.TopEmbeddingTransport
+
+#print axioms BooleanAntichainsKernel.topBooleanEmbeddingCodomainEquiv
+#print axioms BooleanAntichainsKernel.bottomTopBooleanEmbeddingCodomainEquiv

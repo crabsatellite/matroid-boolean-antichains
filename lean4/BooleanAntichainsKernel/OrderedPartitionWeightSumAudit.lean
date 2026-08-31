@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.OrderedPartitionWeightSum
+
+#print axioms BooleanAntichainsKernel.profiledBlocksSigmaEquiv
+#print axioms BooleanAntichainsKernel.orderedPartitionEquivSigmaBlocks
+#print axioms BooleanAntichainsKernel.orderedPartition_weight_sum
+#print axioms BooleanAntichainsKernel.orderedPartition_profile_weight_sum
+#print axioms BooleanAntichainsKernel.positiveProfile_scaled_term
+#print axioms BooleanAntichainsKernel.bellSquareEGF_coeff_pow_partition

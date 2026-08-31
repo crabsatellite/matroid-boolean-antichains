@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.GraphicSimpleForests
+
+#print axioms BooleanAntichainsKernel.graphSimple_spanningForest_transport
+#print axioms BooleanAntichainsKernel.graphSimple_ground_base_transport
+#print axioms BooleanAntichainsKernel.graphSimpleSpanningForestsEquiv
+#print axioms BooleanAntichainsKernel.graphSimpleSpanningForestsEquiv_val
+#print axioms BooleanAntichainsKernel.graphicSimpleMaximumAntichainEquivForests
+#print axioms BooleanAntichainsKernel.graphicSimpleMaximumAntichain_count

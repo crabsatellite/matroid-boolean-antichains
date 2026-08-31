@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.BottomAntichainBasics
+
+#print axioms BooleanAntichainsKernel.bottomAntichainToEmbedding_singleton
+#print axioms BooleanAntichainsKernel.basisCoatoms_antichainAtoms_of_bottom
+#print axioms BooleanAntichainsKernel.bottomAntichainOfEmbedding

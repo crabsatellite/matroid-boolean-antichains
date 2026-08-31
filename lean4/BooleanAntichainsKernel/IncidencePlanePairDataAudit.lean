@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.IncidencePlanePairData
+
+#print axioms BooleanAntichainsKernel.planeDistinctLinesPair
+#print axioms BooleanAntichainsKernel.planeNonincidentPointLine
+#print axioms BooleanAntichainsKernel.planeNonincidentLinePoint
+#print axioms BooleanAntichainsKernel.planeJoinPairDataToPair
+#print axioms BooleanAntichainsKernel.planeJoinPairDataToPair_injective

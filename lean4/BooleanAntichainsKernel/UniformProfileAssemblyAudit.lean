@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.UniformProfileAssembly
+
+#print axioms BooleanAntichainsKernel.uniformProfileDecompositionEquiv
+#print axioms BooleanAntichainsKernel.uniformBlocksToDecomposition_index

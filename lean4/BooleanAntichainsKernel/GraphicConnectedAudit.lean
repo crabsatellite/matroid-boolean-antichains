@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.GraphicConnected
+
+#print axioms BooleanAntichainsKernel.graphIsConnected_component_eq
+#print axioms BooleanAntichainsKernel.graphIsConnected_component_count
+#print axioms BooleanAntichainsKernel.graphicConnectedMaximumAntichainEquivTrees
+#print axioms BooleanAntichainsKernel.graphicConnectedMaximumAntichain_count
+#print axioms BooleanAntichainsKernel.graphicConnectedMaximumAntichain_card

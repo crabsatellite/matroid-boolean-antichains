@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.RankProfiles
+
+#print axioms BooleanAntichainsKernel.tupleRankProfile_submod
+#print axioms BooleanAntichainsKernel.tuple_rankTight_iff_card_profile
+#print axioms BooleanAntichainsKernel.antichain_rank_profile

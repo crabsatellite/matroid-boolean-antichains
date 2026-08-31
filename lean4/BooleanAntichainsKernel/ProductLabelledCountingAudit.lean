@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.ProductLabelledCounting
+
+#print axioms BooleanAntichainsKernel.sum_active_cover_by_sizes
+#print axioms BooleanAntichainsKernel.productEmbedding_count_by_sizes

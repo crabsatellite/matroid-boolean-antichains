@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.MinorRank
+
+#print axioms BooleanAntichainsKernel.matroidRank_contract_add
+#print axioms BooleanAntichainsKernel.matroidRank_contract

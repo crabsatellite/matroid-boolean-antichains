@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.UniformSimplification
+
+#print axioms BooleanAntichainsKernel.uniformOn_parallelClass_card_one
+#print axioms BooleanAntichainsKernel.uniformOn_rank_one_simplifiedBasis_count
+#print axioms BooleanAntichainsKernel.uniformOn_simplifiedBasis_count

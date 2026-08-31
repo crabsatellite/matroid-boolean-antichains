@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.IncidencePlaneClosure
+
+#print axioms BooleanAntichainsKernel.incidencePlaneMatroid_closure_of_card_le_one
+#print axioms BooleanAntichainsKernel.incidencePlaneMatroid_closure_empty
+#print axioms BooleanAntichainsKernel.incidencePlaneMatroid_closure_singleton
+#print axioms BooleanAntichainsKernel.incidencePlaneMatroid_closure_pair
+#print axioms BooleanAntichainsKernel.incidencePlaneMatroid_closure_three

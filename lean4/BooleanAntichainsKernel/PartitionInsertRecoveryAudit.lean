@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.PartitionInsertRecovery
+
+#print axioms BooleanAntichainsKernel.partitionDropPoint_rel
+#print axioms BooleanAntichainsKernel.partitionDropPoint_insert
+#print axioms BooleanAntichainsKernel.partitionInsertTarget_spec
+#print axioms BooleanAntichainsKernel.partitionInsertPoint_drop_target

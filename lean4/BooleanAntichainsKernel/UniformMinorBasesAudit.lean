@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.UniformMinorBases
+
+#print axioms BooleanAntichainsKernel.uniformOn_contract
+#print axioms BooleanAntichainsKernel.uniformOnBasesEquivPowersetCard
+#print axioms BooleanAntichainsKernel.uniformOn_basis_count
+#print axioms BooleanAntichainsKernel.uniformOn_contraction_basis_count

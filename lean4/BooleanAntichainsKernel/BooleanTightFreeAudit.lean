@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.BooleanTightFree
+
+#print axioms BooleanAntichainsKernel.freeOnCorankFlatEquivPowersetCard
+#print axioms BooleanAntichainsKernel.freeOn_rankTight_count

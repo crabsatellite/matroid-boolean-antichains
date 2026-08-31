@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.UniformMatroid
+
+#print axioms BooleanAntichainsKernel.uniformOn
+#print axioms BooleanAntichainsKernel.uniformOn_indep_iff
+#print axioms BooleanAntichainsKernel.uniformOn_isBase_iff
+#print axioms BooleanAntichainsKernel.uniformOn_ground_rank

@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.BasisSpan
+
+#print axioms BooleanAntichainsKernel.indexed_simplified_basis_span
+#print axioms BooleanAntichainsKernel.simplified_basis_span

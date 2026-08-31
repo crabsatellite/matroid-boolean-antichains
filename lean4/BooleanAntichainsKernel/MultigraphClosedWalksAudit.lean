@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.MultigraphClosedWalks
+
+#print axioms BooleanAntichainsKernel.graphWithin_isLink
+#print axioms BooleanAntichainsKernel.graphWithin_edge_subset
+#print axioms BooleanAntichainsKernel.graphWithin_le
+#print axioms BooleanAntichainsKernel.LabelledGraphWalk.descendWithin_edgeLabels
+#print axioms BooleanAntichainsKernel.LabelledGraphWalk.descendWithin_vertexLabels
+#print axioms BooleanAntichainsKernel.LabelledGraphWalk.descendWithin_isCycle
+#print axioms BooleanAntichainsKernel.graphReachable_descendWithin

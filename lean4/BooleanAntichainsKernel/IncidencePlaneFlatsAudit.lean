@@ -1,0 +1,10 @@
+import BooleanAntichainsKernel.IncidencePlaneFlats
+
+#print axioms BooleanAntichainsKernel.incidencePlaneMatroid_isFlat_cases
+#print axioms BooleanAntichainsKernel.incidencePlaneMatroid_isFlat_iff
+#print axioms BooleanAntichainsKernel.incidencePlanePointFlat_rank
+#print axioms BooleanAntichainsKernel.incidencePlaneLineFlat_rank
+#print axioms BooleanAntichainsKernel.incidencePlaneFlat_top_rank
+#print axioms BooleanAntichainsKernel.incidencePlanePointFlat_injective
+#print axioms BooleanAntichainsKernel.incidencePlaneLineFlat_injective
+#print axioms BooleanAntichainsKernel.incidencePlanePointFlat_le_lineFlat

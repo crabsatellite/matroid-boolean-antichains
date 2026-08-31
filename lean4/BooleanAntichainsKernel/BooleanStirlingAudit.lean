@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.BooleanStirling
+
+#print axioms BooleanAntichainsKernel.booleanSuccProductOrderIso
+#print axioms BooleanAntichainsKernel.booleanLattice_count_recurrence
+#print axioms BooleanAntichainsKernel.booleanLattice_count_stirling

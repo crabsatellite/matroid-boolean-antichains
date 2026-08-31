@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.UniformBlockFaces
+
+#print axioms BooleanAntichainsKernel.uniformBlockFace_inter
+#print axioms BooleanAntichainsKernel.uniformBlockData_ext
+#print axioms BooleanAntichainsKernel.UniformBlockData.face_small

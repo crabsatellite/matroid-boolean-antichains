@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.SingletonAntichains
+
+#print axioms BooleanAntichainsKernel.oneAtomTopHom_coatom
+#print axioms BooleanAntichainsKernel.oneAtomEmbeddingEquivProper
+#print axioms BooleanAntichainsKernel.singletonAntichain_count

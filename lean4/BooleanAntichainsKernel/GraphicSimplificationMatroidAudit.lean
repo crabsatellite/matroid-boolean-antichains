@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.GraphicSimplificationMatroid
+
+#print axioms BooleanAntichainsKernel.graphicGroundOriginalLabel_forest_iff
+#print axioms BooleanAntichainsKernel.graphic_simplification_indep_support
+#print axioms BooleanAntichainsKernel.graphic_simplification_indep
+#print axioms BooleanAntichainsKernel.graphic_simplification_eq_comap
+#print axioms BooleanAntichainsKernel.graphic_simplification_isBase
+#print axioms BooleanAntichainsKernel.graphic_simplification_base_spanningForest

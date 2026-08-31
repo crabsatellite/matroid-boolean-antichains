@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.OrderedPartitionBlocks
+
+#print axioms BooleanAntichainsKernel.orderedPartitionToProfiledBlocks_profile
+#print axioms BooleanAntichainsKernel.orderedPartitionToProfiledBlocks_block
+#print axioms BooleanAntichainsKernel.orderedPartition_weight

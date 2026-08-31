@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.UniformEmbeddingBlocks
+
+#print axioms BooleanAntichainsKernel.uniformEmbedding_proper_face
+#print axioms BooleanAntichainsKernel.uniformEmbedding_full_union_rank
+#print axioms BooleanAntichainsKernel.uniformEmbeddingToBlocks

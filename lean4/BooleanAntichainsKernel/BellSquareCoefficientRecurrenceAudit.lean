@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.BellSquareCoefficientRecurrence
+
+#print axioms BooleanAntichainsKernel.bellSquarePowerCoeffRec_zero
+#print axioms BooleanAntichainsKernel.bellSquarePowerCoeffRec_succ
+#print axioms BooleanAntichainsKernel.bellSquareEGF_coeff_pow_rec
+#print axioms BooleanAntichainsKernel.bellSquareLogSeries_coeff_rec

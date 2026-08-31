@@ -1,0 +1,27 @@
+import BooleanAntichainsKernel.BellSquarePowerCache24
+
+#print axioms BooleanAntichainsKernel.bellPower_one
+#print axioms BooleanAntichainsKernel.bellPower_two_0
+#print axioms BooleanAntichainsKernel.bellPower_two_1
+#print axioms BooleanAntichainsKernel.bellPower_two_2
+#print axioms BooleanAntichainsKernel.bellPower_two_3
+#print axioms BooleanAntichainsKernel.bellPower_two_4
+#print axioms BooleanAntichainsKernel.bellPower_two_5
+#print axioms BooleanAntichainsKernel.bellPower_two_6
+#print axioms BooleanAntichainsKernel.bellPower_two_7
+#print axioms BooleanAntichainsKernel.bellPower_three_0
+#print axioms BooleanAntichainsKernel.bellPower_three_1
+#print axioms BooleanAntichainsKernel.bellPower_three_2
+#print axioms BooleanAntichainsKernel.bellPower_three_3
+#print axioms BooleanAntichainsKernel.bellPower_three_4
+#print axioms BooleanAntichainsKernel.bellPower_three_5
+#print axioms BooleanAntichainsKernel.bellPower_three_6
+#print axioms BooleanAntichainsKernel.bellPower_three_7
+#print axioms BooleanAntichainsKernel.bellPower_four_0
+#print axioms BooleanAntichainsKernel.bellPower_four_1
+#print axioms BooleanAntichainsKernel.bellPower_four_2
+#print axioms BooleanAntichainsKernel.bellPower_four_3
+#print axioms BooleanAntichainsKernel.bellPower_four_4
+#print axioms BooleanAntichainsKernel.bellPower_four_5
+#print axioms BooleanAntichainsKernel.bellPower_four_6
+#print axioms BooleanAntichainsKernel.bellPower_four_7

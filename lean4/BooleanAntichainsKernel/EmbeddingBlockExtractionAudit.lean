@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.EmbeddingBlockExtraction
+
+#print axioms BooleanAntichainsKernel.embedding_face_eq_closure_blocks
+#print axioms BooleanAntichainsKernel.embeddingBlocks_nonempty
+#print axioms BooleanAntichainsKernel.embeddingBlocks_pairwise

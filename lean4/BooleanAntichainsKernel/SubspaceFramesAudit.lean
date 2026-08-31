@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.SubspaceFrames
+
+#print axioms BooleanAntichainsKernel.subspaceFrameForget_span
+#print axioms BooleanAntichainsKernel.subspaceFrameSigmaEquiv
+#print axioms BooleanAntichainsKernel.subspaceFrameSigmaEquiv_vectors
+#print axioms BooleanAntichainsKernel.independentFrame_card
+#print axioms BooleanAntichainsKernel.subspaceFrame_card
+#print axioms BooleanAntichainsKernel.dimensionSubspace_card_mul

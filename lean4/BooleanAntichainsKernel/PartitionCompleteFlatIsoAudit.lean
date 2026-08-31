@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.PartitionCompleteFlatIso
+
+#print axioms BooleanAntichainsKernel.completeFlat_pair_mem
+#print axioms BooleanAntichainsKernel.completeFlatSetoid_setoidFlat
+#print axioms BooleanAntichainsKernel.completeSetoidFlat_flatSetoid
+#print axioms BooleanAntichainsKernel.setoidCompleteFlatOrderIso
+#print axioms BooleanAntichainsKernel.finitePartitionCompleteFlatOrderIso
+#print axioms BooleanAntichainsKernel.finitePartitionCompleteFlatOrderIso_mem_pair
+#print axioms BooleanAntichainsKernel.finitePartitionCompleteFlatOrderIso_symm_blocks

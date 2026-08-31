@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.InternalOrderingCount
+
+#print axioms BooleanAntichainsKernel.enumeratedInternalEquivOrdered
+#print axioms BooleanAntichainsKernel.orderedInternal_count_eq_unordered_mul_factorial
+#print axioms BooleanAntichainsKernel.unorderedInternal_count_eq_ordered_div_factorial

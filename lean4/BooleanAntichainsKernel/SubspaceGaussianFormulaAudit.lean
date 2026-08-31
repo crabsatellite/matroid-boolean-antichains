@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.SubspaceGaussianFormula
+
+#print axioms BooleanAntichainsKernel.quotientDimension_sum
+#print axioms BooleanAntichainsKernel.subspace_all_size_formula
+#print axioms BooleanAntichainsKernel.standardSubspace_all_size_formula

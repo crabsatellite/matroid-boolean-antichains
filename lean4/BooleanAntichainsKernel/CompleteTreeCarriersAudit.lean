@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.CompleteTreeCarriers
+
+#print axioms BooleanAntichainsKernel.complete_fromEdgeSet_edges
+#print axioms BooleanAntichainsKernel.completeTreeEquivSimpleTree
+#print axioms BooleanAntichainsKernel.completeTreeEquivSimpleTree_edges
+#print axioms BooleanAntichainsKernel.completeTreeEquivSimpleTree_symm_edges
+#print axioms BooleanAntichainsKernel.simpleTreeRelabelEquiv
+#print axioms BooleanAntichainsKernel.simpleTreeRelabelEquiv_adj

@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.UnorderedFullHeight
+
+#print axioms BooleanAntichainsKernel.unordered_full_height_rigidity
+#print axioms BooleanAntichainsKernel.enumeration_span

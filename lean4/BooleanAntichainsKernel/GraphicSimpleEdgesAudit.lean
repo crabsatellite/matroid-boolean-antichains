@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.GraphicSimpleEdges
+
+#print axioms BooleanAntichainsKernel.GraphIsSimple.edge_nonloop
+#print axioms BooleanAntichainsKernel.GraphIsSimple.ends_injective
+#print axioms BooleanAntichainsKernel.graphSimpleEdgesEquiv
+#print axioms BooleanAntichainsKernel.graphSimpleEdgesEquiv_val
+#print axioms BooleanAntichainsKernel.graphSupport_ground_image
+#print axioms BooleanAntichainsKernel.graphSimpleEdges_image_ground
+#print axioms BooleanAntichainsKernel.graphSimpleEdges_image

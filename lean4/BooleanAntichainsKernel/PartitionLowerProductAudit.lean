@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.PartitionLowerProduct
+
+#print axioms BooleanAntichainsKernel.partitionBindBlocks_mem
+#print axioms BooleanAntichainsKernel.partitionBindBlocks_lower
+#print axioms BooleanAntichainsKernel.partitionLower_bindBlocks
+#print axioms BooleanAntichainsKernel.partitionLowerIntervalOrderIso
+#print axioms BooleanAntichainsKernel.partitionLowerIntervalOrderIso_blocks
+#print axioms BooleanAntichainsKernel.partitionLowerInterval_count

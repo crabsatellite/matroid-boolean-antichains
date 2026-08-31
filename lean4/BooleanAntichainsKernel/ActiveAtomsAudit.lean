@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.ActiveAtoms
+
+#print axioms BooleanAntichainsKernel.topHom_eq_active_inter
+#print axioms BooleanAntichainsKernel.topHom_active_top
+#print axioms BooleanAntichainsKernel.topHom_injective_on_active
+#print axioms BooleanAntichainsKernel.prodTopBooleanHom_injective_iff

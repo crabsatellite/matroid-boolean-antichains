@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.PlaneIndependence
+
+#print axioms BooleanAntichainsKernel.planeIndependent_empty
+#print axioms BooleanAntichainsKernel.PlaneIndependent.mono
+#print axioms BooleanAntichainsKernel.plane_line_eq_of_subset_card_two
+#print axioms BooleanAntichainsKernel.plane_noncollinear_insert_of_line_pair
+#print axioms BooleanAntichainsKernel.planeIndependent_augment

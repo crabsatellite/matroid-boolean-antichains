@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.MultigraphSpanningForest
+
+#print axioms BooleanAntichainsKernel.forestSpansComponents_component_tree
+#print axioms BooleanAntichainsKernel.graphSpanningForest_isForest
+#print axioms BooleanAntichainsKernel.graphSpanningForest_spans_components
+#print axioms BooleanAntichainsKernel.graphSpanningForest_iff_spans_components
+#print axioms BooleanAntichainsKernel.cycleMatroid_isBase_iff_spanningForest

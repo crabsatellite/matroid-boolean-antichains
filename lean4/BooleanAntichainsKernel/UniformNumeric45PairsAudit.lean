@@ -1,0 +1,3 @@
+import BooleanAntichainsKernel.UniformNumeric45Pairs
+
+#print axioms BooleanAntichainsKernel.uniform45_pairs_value

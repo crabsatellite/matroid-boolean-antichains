@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.IncidencePlanePairBijection
+
+#print axioms BooleanAntichainsKernel.planeJoinPairEquiv
+#print axioms BooleanAntichainsKernel.planeJoinPairEquiv_line_line
+#print axioms BooleanAntichainsKernel.planeJoinPairEquiv_point_line
+#print axioms BooleanAntichainsKernel.planeJoinPairEquiv_line_point

@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.IncidencePlaneEnumeration
+
+#print axioms BooleanAntichainsKernel.incidencePlane_distribution
+#print axioms BooleanAntichainsKernel.incidencePlane_enumeration

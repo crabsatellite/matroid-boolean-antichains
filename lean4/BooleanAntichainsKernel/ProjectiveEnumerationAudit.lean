@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.ProjectiveEnumeration
+
+#print axioms BooleanAntichainsKernel.projectiveAntichainEquivBasis
+#print axioms BooleanAntichainsKernel.projectiveAntichainEquivBasis_atoms
+#print axioms BooleanAntichainsKernel.projectiveAntichainEquivBasis_coatoms
+#print axioms BooleanAntichainsKernel.projectiveAntichain_count_via_basis
+#print axioms BooleanAntichainsKernel.standardProjectiveAntichain_product

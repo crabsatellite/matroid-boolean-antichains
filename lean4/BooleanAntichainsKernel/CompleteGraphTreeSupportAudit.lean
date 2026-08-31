@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.CompleteGraphTreeSupport
+
+#print axioms BooleanAntichainsKernel.completeGraphSupportIso
+#print axioms BooleanAntichainsKernel.completeGraphSupportIso_val
+#print axioms BooleanAntichainsKernel.completeGraph_edgeEnds_original
+#print axioms BooleanAntichainsKernel.completeGraph_edgeEnds_injective
+#print axioms BooleanAntichainsKernel.completeSpanningTree_support_iff
+#print axioms BooleanAntichainsKernel.completeSpanningTree_iff

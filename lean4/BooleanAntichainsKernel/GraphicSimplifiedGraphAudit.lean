@@ -1,0 +1,10 @@
+import BooleanAntichainsKernel.GraphicSimplifiedGraph
+
+#print axioms BooleanAntichainsKernel.graphSimplifiedGraph_vertexSet
+#print axioms BooleanAntichainsKernel.graphSimplifiedGraph_edgeSet
+#print axioms BooleanAntichainsKernel.graphSimplifiedGraph_isLink
+#print axioms BooleanAntichainsKernel.graphSimplifiedGraph_no_loops
+#print axioms BooleanAntichainsKernel.graphSimplifiedGraph_unique_edge
+#print axioms BooleanAntichainsKernel.graphSimplifiedGraph_edgeEnds
+#print axioms BooleanAntichainsKernel.graphSimplifiedGraph_support
+#print axioms BooleanAntichainsKernel.graphSimplifiedGraph_forest_iff

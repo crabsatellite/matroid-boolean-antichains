@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.MaximumBijection
+
+#print axioms BooleanAntichainsKernel.maximumAntichain_atoms_isSimplifiedBasis
+#print axioms BooleanAntichainsKernel.simplifiedBasis_coatoms_isMaximum
+#print axioms BooleanAntichainsKernel.maximumAntichainEquivSimplifiedBasis
+#print axioms BooleanAntichainsKernel.maximumAntichain_count_eq_simplifiedBases

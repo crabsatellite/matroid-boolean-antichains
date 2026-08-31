@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.PartitionPairsFormula
+
+#print axioms BooleanAntichainsKernel.partition_pairs_log_formula
+#print axioms BooleanAntichainsKernel.partition_pairs_log_formula_doubled

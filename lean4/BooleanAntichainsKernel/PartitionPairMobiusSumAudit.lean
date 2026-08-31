@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.PartitionPairMobiusSum
+
+#print axioms BooleanAntichainsKernel.lowerIntervalCard_partition
+#print axioms BooleanAntichainsKernel.partition_mobiusPairSum_eq
+#print axioms BooleanAntichainsKernel.partition_pairs_mobius_doubled
+#print axioms BooleanAntichainsKernel.partition_pairs_mobius_formula

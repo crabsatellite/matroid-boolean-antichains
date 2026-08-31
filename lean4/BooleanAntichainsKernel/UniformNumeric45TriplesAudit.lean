@@ -1,0 +1,3 @@
+import BooleanAntichainsKernel.UniformNumeric45Triples
+
+#print axioms BooleanAntichainsKernel.uniform45_triples_value

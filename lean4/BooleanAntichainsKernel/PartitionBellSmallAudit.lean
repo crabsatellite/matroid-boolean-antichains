@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.PartitionBellSmall
+
+#print axioms BooleanAntichainsKernel.partitionBell_three
+#print axioms BooleanAntichainsKernel.partitionBell_four
+#print axioms BooleanAntichainsKernel.partitionBell_five
+#print axioms BooleanAntichainsKernel.partitionBell_six
+#print axioms BooleanAntichainsKernel.partitionBell_seven

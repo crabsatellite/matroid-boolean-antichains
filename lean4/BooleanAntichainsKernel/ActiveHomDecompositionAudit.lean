@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.ActiveHomDecomposition
+
+#print axioms BooleanAntichainsKernel.restrictTopHomToActive
+#print axioms BooleanAntichainsKernel.activeAtoms_extend
+#print axioms BooleanAntichainsKernel.extend_restrictTopHom
+#print axioms BooleanAntichainsKernel.activeHomDecompositionEquiv

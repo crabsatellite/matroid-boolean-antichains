@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.PositiveProfileAntidiag
+
+#print axioms BooleanAntichainsKernel.positiveProfileFinsupp_fin
+#print axioms BooleanAntichainsKernel.positiveProfileFinsupp_mem
+#print axioms BooleanAntichainsKernel.positiveProfileAntidiag_left
+#print axioms BooleanAntichainsKernel.positiveProfileAntidiag_right
+#print axioms BooleanAntichainsKernel.positiveProfileAntidiagEquiv

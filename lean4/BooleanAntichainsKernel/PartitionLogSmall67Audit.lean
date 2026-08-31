@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.PartitionLogSmall67
+
+#print axioms BooleanAntichainsKernel.bellSquareLogCoeffRec_six
+#print axioms BooleanAntichainsKernel.bellSquareLogCoeffRec_seven

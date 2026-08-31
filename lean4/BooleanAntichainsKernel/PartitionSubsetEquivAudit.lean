@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.PartitionSubsetEquiv
+
+#print axioms BooleanAntichainsKernel.partitionFromToSubtype
+#print axioms BooleanAntichainsKernel.partitionToFromSubtype
+#print axioms BooleanAntichainsKernel.supportedPartitionEquiv
+#print axioms BooleanAntichainsKernel.supportedPartitionOrderIso
+#print axioms BooleanAntichainsKernel.partitionToSubtype_card
+#print axioms BooleanAntichainsKernel.supportedPartitionEquivFin
+#print axioms BooleanAntichainsKernel.supportedPartition_count_fin

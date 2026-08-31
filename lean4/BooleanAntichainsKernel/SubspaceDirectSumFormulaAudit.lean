@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.SubspaceDirectSumFormula
+
+#print axioms BooleanAntichainsKernel.directSumProfileCount_zero_of_lt
+#print axioms BooleanAntichainsKernel.standardInternal_count_by_dimensions
+#print axioms BooleanAntichainsKernel.subspace_count_by_directSumProfiles

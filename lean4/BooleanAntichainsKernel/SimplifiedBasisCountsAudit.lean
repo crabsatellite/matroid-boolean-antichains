@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.SimplifiedBasisCounts
+
+#print axioms BooleanAntichainsKernel.simplifiedBasis_count_rank_one
+#print axioms BooleanAntichainsKernel.simplifiedBasis_count_of_singleton_classes

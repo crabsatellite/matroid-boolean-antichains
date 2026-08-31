@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.PartitionBlockRemoval
+
+#print axioms BooleanAntichainsKernel.partitionRemoveBlock_parts
+#print axioms BooleanAntichainsKernel.partitionAdjoinBlock_parts
+#print axioms BooleanAntichainsKernel.partitionAdjoin_remove
+#print axioms BooleanAntichainsKernel.partitionRemove_adjoin
+#print axioms BooleanAntichainsKernel.partitionRemoveBlock_card
+#print axioms BooleanAntichainsKernel.partitionAdjoinBlock_card

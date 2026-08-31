@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.MatroidSimplification
+
+#print axioms BooleanAntichainsKernel.simplificationOnFlats_ground
+#print axioms BooleanAntichainsKernel.rankOneRepresentatives_span
+#print axioms BooleanAntichainsKernel.simplificationOnFlats_total_rank
+#print axioms BooleanAntichainsKernel.simplificationOnFlats_isBase_iff
+#print axioms BooleanAntichainsKernel.simplificationOnFlats_finset_rank

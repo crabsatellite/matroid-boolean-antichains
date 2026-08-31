@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.InternalProfileTransitivity
+
+#print axioms BooleanAntichainsKernel.sizedInternalTransport
+#print axioms BooleanAntichainsKernel.sizedInternalTransport_smul
+#print axioms BooleanAntichainsKernel.sizedInternal_isPretransitive

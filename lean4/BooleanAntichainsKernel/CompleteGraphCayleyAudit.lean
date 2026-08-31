@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.CompleteGraphCayley
+
+#print axioms BooleanAntichainsKernel.completeGraph_spanningTree_count
+#print axioms BooleanAntichainsKernel.completeFin_spanningTree_count

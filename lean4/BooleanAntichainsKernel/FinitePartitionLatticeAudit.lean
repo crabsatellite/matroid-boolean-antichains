@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.FinitePartitionLattice
+
+#print axioms BooleanAntichainsKernel.finitePartition_inf_blocks
+#print axioms BooleanAntichainsKernel.finitePartition_sup_setoid
+#print axioms BooleanAntichainsKernel.finitePartitionSetoidOrderIso_top
+#print axioms BooleanAntichainsKernel.finitePartitionSetoidOrderIso_bot
+#print axioms BooleanAntichainsKernel.finitePartitionQuotientBlockEquiv
+#print axioms BooleanAntichainsKernel.finitePartitionQuotientBlockEquiv_mk
+#print axioms BooleanAntichainsKernel.finitePartition_block_count

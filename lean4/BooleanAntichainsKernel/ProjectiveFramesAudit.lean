@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.ProjectiveFrames
+
+#print axioms BooleanAntichainsKernel.orderedProjectiveFrame_injective
+#print axioms BooleanAntichainsKernel.projectiveFrameOfVectors_lift
+#print axioms BooleanAntichainsKernel.projectiveFrameScalarEquiv
+#print axioms BooleanAntichainsKernel.projectiveFrameScalarEquiv_apply
+#print axioms BooleanAntichainsKernel.projectiveFrame_scalar_count
+#print axioms BooleanAntichainsKernel.projectiveFrame_count_rational

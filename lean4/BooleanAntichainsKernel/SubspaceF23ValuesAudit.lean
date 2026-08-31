@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.SubspaceF23Values
+
+#print axioms BooleanAntichainsKernel.subspaceF23_singletons_value
+#print axioms BooleanAntichainsKernel.subspaceF23_pairs_value
+#print axioms BooleanAntichainsKernel.subspaceF23_triples_value

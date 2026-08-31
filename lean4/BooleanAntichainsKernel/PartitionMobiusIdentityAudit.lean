@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.PartitionMobiusIdentity
+
+#print axioms BooleanAntichainsKernel.partitionMobiusCandidate_succ
+#print axioms BooleanAntichainsKernel.partitionMobiusCandidate_cancel
+#print axioms BooleanAntichainsKernel.partitionMobiusConvolution_one
+#print axioms BooleanAntichainsKernel.partitionMobiusConvolution_succ

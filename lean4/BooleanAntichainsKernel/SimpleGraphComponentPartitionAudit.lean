@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.SimpleGraphComponentPartition
+
+#print axioms BooleanAntichainsKernel.simpleGraphVertexComponentsEquiv
+#print axioms BooleanAntichainsKernel.simpleComponentEdgeMap_val
+#print axioms BooleanAntichainsKernel.simpleGraphEdgeComponentsEquiv
+#print axioms BooleanAntichainsKernel.simpleGraph_vertex_count_components
+#print axioms BooleanAntichainsKernel.simpleGraph_edge_count_components

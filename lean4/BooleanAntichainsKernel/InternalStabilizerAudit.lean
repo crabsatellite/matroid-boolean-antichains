@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.InternalStabilizer
+
+#print axioms BooleanAntichainsKernel.internalStabilizer_preserves
+#print axioms BooleanAntichainsKernel.internalStabilizer_extend_restrict
+#print axioms BooleanAntichainsKernel.internalStabilizerMulEquiv

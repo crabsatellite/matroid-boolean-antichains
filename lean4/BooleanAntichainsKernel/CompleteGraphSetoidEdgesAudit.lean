@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.CompleteGraphSetoidEdges
+
+#print axioms BooleanAntichainsKernel.completeSetoidEdges_mem_pair
+#print axioms BooleanAntichainsKernel.completeSetoidEdges_link
+#print axioms BooleanAntichainsKernel.completeSetoid_reachable_iff
+#print axioms BooleanAntichainsKernel.completeSetoidEdges_isFlat
+#print axioms BooleanAntichainsKernel.completeSetoidFlat
+#print axioms BooleanAntichainsKernel.completeSetoidFlat_val

@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.BasisWeightExpansion
+
+#print axioms BooleanAntichainsKernel.basisWeight_sum_parallel_classes
+#print axioms BooleanAntichainsKernel.basisWeight_sum_maximum_antichains
+#print axioms BooleanAntichainsKernel.basis_polynomial_reconstructed_atoms
+#print axioms BooleanAntichainsKernel.basis_count_reconstructed_atoms

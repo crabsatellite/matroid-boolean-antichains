@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.ProductCoverCoefficient
+
+#print axioms BooleanAntichainsKernel.cover_choose_mul_factorials
+#print axioms BooleanAntichainsKernel.normalized_cover_coefficient

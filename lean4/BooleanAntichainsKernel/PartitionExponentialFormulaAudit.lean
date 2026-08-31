@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.PartitionExponentialFormula
+
+#print axioms BooleanAntichainsKernel.partitionBellSquareMobiusSum_cast
+#print axioms BooleanAntichainsKernel.partitionBellSquareMobiusSumQ_blocks
+#print axioms BooleanAntichainsKernel.logFactor_factorial_eq_candidate
+#print axioms BooleanAntichainsKernel.partition_exponential_formula
+#print axioms BooleanAntichainsKernel.partition_exponential_formula_integer_cast

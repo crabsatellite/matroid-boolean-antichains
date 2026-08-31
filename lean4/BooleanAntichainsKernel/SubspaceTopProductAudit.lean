@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.SubspaceTopProduct
+
+#print axioms BooleanAntichainsKernel.positiveDimensionProfile_diagonal
+#print axioms BooleanAntichainsKernel.gaussianCoefficient_diagonal
+#print axioms BooleanAntichainsKernel.directSumProfileCount_diagonal
+#print axioms BooleanAntichainsKernel.standardSubspace_top_product

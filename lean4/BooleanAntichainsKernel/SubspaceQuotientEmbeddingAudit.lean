@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.SubspaceQuotientEmbedding
+
+#print axioms BooleanAntichainsKernel.subspaceQuotientEmbeddingEquiv
+#print axioms BooleanAntichainsKernel.subspaceQuotientSigmaEquiv
+#print axioms BooleanAntichainsKernel.quotient_fibre_commonMeet
+#print axioms BooleanAntichainsKernel.quotient_coatom_image

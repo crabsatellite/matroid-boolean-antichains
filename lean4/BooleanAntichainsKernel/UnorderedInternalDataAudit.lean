@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.UnorderedInternalData
+
+#print axioms BooleanAntichainsKernel.isInternal_reindex_iff
+#print axioms BooleanAntichainsKernel.forgetOrderedInternal
+#print axioms BooleanAntichainsKernel.forget_orderUnorderedInternal

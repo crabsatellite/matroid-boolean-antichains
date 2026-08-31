@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.BasisChoices
+
+#print axioms BooleanAntichainsKernel.basisChoice_injective
+#print axioms BooleanAntichainsKernel.chosenBasisElements_card
+#print axioms BooleanAntichainsKernel.chosenBasisElements_classes
+#print axioms BooleanAntichainsKernel.chosenBasisElements_isBase

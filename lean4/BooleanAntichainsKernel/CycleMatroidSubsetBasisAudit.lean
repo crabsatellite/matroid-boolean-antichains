@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.CycleMatroidSubsetBasis
+
+#print axioms BooleanAntichainsKernel.cycleMatroid_isBasis_reachability
+#print axioms BooleanAntichainsKernel.cycleMatroid_isBasis_component_count
+#print axioms BooleanAntichainsKernel.cycleMatroid_rank_set_add_components
+#print axioms BooleanAntichainsKernel.cycleMatroid_rank_set

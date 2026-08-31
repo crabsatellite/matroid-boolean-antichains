@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.MultigraphCycleLift
+
+#print axioms BooleanAntichainsKernel.graphSupportEdge_ends
+#print axioms BooleanAntichainsKernel.graphSupportWalkLift_support
+#print axioms BooleanAntichainsKernel.graphSupportWalkLift_edges
+#print axioms BooleanAntichainsKernel.graphSupportWalkLift_isCycle
+#print axioms BooleanAntichainsKernel.GraphEdgeForest.support_isAcyclic

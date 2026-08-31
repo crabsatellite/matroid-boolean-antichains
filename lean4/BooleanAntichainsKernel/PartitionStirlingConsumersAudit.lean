@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.PartitionStirlingConsumers
+
+#print axioms BooleanAntichainsKernel.completeMatroid_corank_count
+#print axioms BooleanAntichainsKernel.completeFinMatroid_corank_count

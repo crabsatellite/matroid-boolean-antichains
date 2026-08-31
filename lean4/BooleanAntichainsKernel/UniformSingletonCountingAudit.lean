@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.UniformSingletonCounting
+
+#print axioms BooleanAntichainsKernel.uniformOnProperFlatEquivSmallSubsets
+#print axioms BooleanAntichainsKernel.smallGroundSubsets_count
+#print axioms BooleanAntichainsKernel.uniform_singleton_count

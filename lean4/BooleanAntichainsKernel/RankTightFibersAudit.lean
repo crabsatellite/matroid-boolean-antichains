@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.RankTightFibers
+
+#print axioms BooleanAntichainsKernel.hasCorank_bottom_iff_rankTight
+#print axioms BooleanAntichainsKernel.intervalAntichain_bottom
+#print axioms BooleanAntichainsKernel.bottomFiberEquivContractionBases
+#print axioms BooleanAntichainsKernel.bottomFiber_count_eq_contraction_bases

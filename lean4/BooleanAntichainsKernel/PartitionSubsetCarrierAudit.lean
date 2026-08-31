@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.PartitionSubsetCarrier
+
+#print axioms BooleanAntichainsKernel.partitionFromSubtype_parts
+#print axioms BooleanAntichainsKernel.partitionFromSubtype_part
+#print axioms BooleanAntichainsKernel.partitionFromSubtype_card
+#print axioms BooleanAntichainsKernel.partitionToSubtype_member
+#print axioms BooleanAntichainsKernel.partitionToSubtype_part

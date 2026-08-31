@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.InternalBlockLinearEquiv
+
+#print axioms BooleanAntichainsKernel.internalBlockLinearEquiv_apply
+#print axioms BooleanAntichainsKernel.internalBlockLinearEquiv_map
+#print axioms BooleanAntichainsKernel.internalLinearEquiv_ext

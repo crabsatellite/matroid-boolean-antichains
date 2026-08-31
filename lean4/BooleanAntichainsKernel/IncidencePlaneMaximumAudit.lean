@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.IncidencePlaneMaximum
+
+#print axioms BooleanAntichainsKernel.incidencePlane_parallelClass_card_one
+#print axioms BooleanAntichainsKernel.incidencePlane_maximum_count_bases
+#print axioms BooleanAntichainsKernel.incidencePlaneBasesEquivTriples
+#print axioms BooleanAntichainsKernel.incidencePlaneBasesEquivTriples_val
+#print axioms BooleanAntichainsKernel.incidencePlane_three_count_noncollinear
+#print axioms BooleanAntichainsKernel.incidencePlane_count_above_three

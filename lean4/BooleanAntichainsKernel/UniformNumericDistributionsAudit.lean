@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.UniformNumericDistributions
+
+#print axioms BooleanAntichainsKernel.uniform34_distribution
+#print axioms BooleanAntichainsKernel.uniform45_distribution

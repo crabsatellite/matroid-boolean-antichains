@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.MultigraphWalkLabels
+
+#print axioms BooleanAntichainsKernel.LabelledGraphWalk.vertexLabels_tail_nodup_iff
+#print axioms BooleanAntichainsKernel.LabelledGraphWalk.isCycle_iff_originalLabels

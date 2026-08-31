@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.MatroidRank
+
+#print axioms BooleanAntichainsKernel.coe_matroidRank
+#print axioms BooleanAntichainsKernel.matroidRank_submod
+#print axioms BooleanAntichainsKernel.matroidRank_indep
+#print axioms BooleanAntichainsKernel.MatroidFlat.rank_strictMono
+#print axioms BooleanAntichainsKernel.MatroidFlat.rank_covBy
+#print axioms BooleanAntichainsKernel.MatroidFlat.grade_eq_rank

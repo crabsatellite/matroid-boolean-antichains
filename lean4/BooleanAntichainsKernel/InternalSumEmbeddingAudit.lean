@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.InternalSumEmbedding
+
+#print axioms BooleanAntichainsKernel.independent_finset_sup_inter
+#print axioms BooleanAntichainsKernel.OrderedInternalDecomposition.toBottomEmbedding
+#print axioms BooleanAntichainsKernel.OrderedInternalDecomposition.toBottomEmbedding_coatom

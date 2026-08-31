@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.IncidencePlaneMatroid
+
+#print axioms BooleanAntichainsKernel.incidencePlaneMatroid
+#print axioms BooleanAntichainsKernel.incidencePlaneMatroid_ground
+#print axioms BooleanAntichainsKernel.incidencePlaneMatroid_indep_iff
+#print axioms BooleanAntichainsKernel.incidencePlaneMatroid_exists_base_three
+#print axioms BooleanAntichainsKernel.incidencePlaneMatroid_rank
+#print axioms BooleanAntichainsKernel.incidencePlaneMatroid_isBase_iff

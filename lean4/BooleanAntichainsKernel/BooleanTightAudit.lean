@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.BooleanTight
+
+#print axioms BooleanAntichainsKernel.freeOn_antichainBottom_card
+#print axioms BooleanAntichainsKernel.freeOnRankTightEquivBoolean
+#print axioms BooleanAntichainsKernel.booleanLattice_rankTight_count

@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.MultigraphSupport
+
+#print axioms BooleanAntichainsKernel.graphSupport_adj
+#print axioms BooleanAntichainsKernel.graphSupport_edgeSet
+#print axioms BooleanAntichainsKernel.graphSupport_mono
+#print axioms BooleanAntichainsKernel.graphSupport_union
+#print axioms BooleanAntichainsKernel.graphSupport_singleton
+#print axioms BooleanAntichainsKernel.graphSupport_insert
+#print axioms BooleanAntichainsKernel.graphSimplification_adj

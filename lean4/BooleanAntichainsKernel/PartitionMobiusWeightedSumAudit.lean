@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.PartitionMobiusWeightedSum
+
+#print axioms BooleanAntichainsKernel.partitionMobius_inner_sum
+#print axioms BooleanAntichainsKernel.partitionMobius_stratum_sum
+#print axioms BooleanAntichainsKernel.finitePartition_mobius_weighted_sum
+#print axioms BooleanAntichainsKernel.partitionCoarsening_mobius_weighted_sum

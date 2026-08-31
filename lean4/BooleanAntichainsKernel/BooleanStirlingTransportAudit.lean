@@ -1,0 +1,3 @@
+import BooleanAntichainsKernel.BooleanStirlingTransport
+
+#print axioms BooleanAntichainsKernel.booleanLattice_count_stirling_general

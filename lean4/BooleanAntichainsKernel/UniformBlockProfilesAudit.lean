@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.UniformBlockProfiles
+
+#print axioms BooleanAntichainsKernel.uniformBlockFace_card_of_disjoint
+#print axioms BooleanAntichainsKernel.UniformBlockData.coatom_card
+#print axioms BooleanAntichainsKernel.UniformBlockData.profile_valid
+#print axioms BooleanAntichainsKernel.uniformBlockDataOfProfile

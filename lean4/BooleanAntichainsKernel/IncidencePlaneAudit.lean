@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.IncidencePlane
+
+#print axioms BooleanAntichainsKernel.plane_line_eq_of_pair
+#print axioms BooleanAntichainsKernel.planeLineSet_inter_of_ne
+#print axioms BooleanAntichainsKernel.planeLineSet_injective
+#print axioms BooleanAntichainsKernel.plane_exists_noncollinear_triple
+#print axioms BooleanAntichainsKernel.planeLineSet_card
+#print axioms BooleanAntichainsKernel.plane_card_points
+#print axioms BooleanAntichainsKernel.plane_card_lines

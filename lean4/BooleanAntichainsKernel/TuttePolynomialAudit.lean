@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.TuttePolynomial
+
+#print axioms BooleanAntichainsKernel.matroid_isBase_iff_rank
+#print axioms BooleanAntichainsKernel.matroidTutte_at_one_eq_number_of_bases

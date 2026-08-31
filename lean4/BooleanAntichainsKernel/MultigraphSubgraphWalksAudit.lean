@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.MultigraphSubgraphWalks
+
+#print axioms BooleanAntichainsKernel.LabelledGraphWalk.mapSubgraph_edgeLabels
+#print axioms BooleanAntichainsKernel.LabelledGraphWalk.mapSubgraph_vertexLabels
+#print axioms BooleanAntichainsKernel.LabelledGraphWalk.mapSubgraph_isCycle
+#print axioms BooleanAntichainsKernel.graphReachable_map_subgraph
+#print axioms BooleanAntichainsKernel.graphEdgeForest_of_subgraph

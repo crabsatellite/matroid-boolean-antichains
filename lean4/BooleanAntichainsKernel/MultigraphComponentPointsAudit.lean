@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.MultigraphComponentPoints
+
+#print axioms BooleanAntichainsKernel.graphComponentPoints_subset
+#print axioms BooleanAntichainsKernel.mem_graphComponentPoints
+#print axioms BooleanAntichainsKernel.graphComponentPoints_nonempty
+#print axioms BooleanAntichainsKernel.graphComponentPoints_closed
+#print axioms BooleanAntichainsKernel.graphComponentPoints_reachable
+#print axioms BooleanAntichainsKernel.graphComponentPoints_eq_of_common_vertex

@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.PartitionLowerBell
+
+#print axioms BooleanAntichainsKernel.partitionSubset_card_bell
+#print axioms BooleanAntichainsKernel.partitionLowerInterval_bell_product
+#print axioms BooleanAntichainsKernel.partitionLowerInterval_bell_product_sq

@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.GraphicWeights
+
+#print axioms BooleanAntichainsKernel.graphParallelEdgeClass_mem
+#print axioms BooleanAntichainsKernel.graphParallelEdgeClass_mem_ends
+#print axioms BooleanAntichainsKernel.graphParallelEdgeClass_eq_rankOne
+#print axioms BooleanAntichainsKernel.graphSpanningForestWeight_sum
+#print axioms BooleanAntichainsKernel.graphSpanningForestPolynomial_eq
+#print axioms BooleanAntichainsKernel.graphMaximumAntichain_card
+#print axioms BooleanAntichainsKernel.graphMaximumAntichain_spanAtom_rank

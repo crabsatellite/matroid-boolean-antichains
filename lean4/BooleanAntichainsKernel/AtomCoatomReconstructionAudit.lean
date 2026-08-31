@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.AtomCoatomReconstruction
+
+#print axioms BooleanAntichainsKernel.coatomTuple_isBoolean
+#print axioms BooleanAntichainsKernel.reconstructedAtom_coatomTuple
+#print axioms BooleanAntichainsKernel.coatomTuple_reconstructedAtom
+#print axioms BooleanAntichainsKernel.antichainAtoms_orderedCarrier
+#print axioms BooleanAntichainsKernel.basisCoatoms_orderedCarrier

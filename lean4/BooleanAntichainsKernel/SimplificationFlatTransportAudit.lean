@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.SimplificationFlatTransport
+
+#print axioms BooleanAntichainsKernel.rankOneFlatEquivOfOrderIso
+#print axioms BooleanAntichainsKernel.matroid_indep_finset_iff_rank
+#print axioms BooleanAntichainsKernel.flatIsoRepresentativeMap_injective
+#print axioms BooleanAntichainsKernel.flatIsoRepresentativeMap_mem_ground
+#print axioms BooleanAntichainsKernel.simplificationFlatIso_finset_rank
+#print axioms BooleanAntichainsKernel.simplificationFlatIso_indep
+#print axioms BooleanAntichainsKernel.simplificationFlatIso_eq_comap

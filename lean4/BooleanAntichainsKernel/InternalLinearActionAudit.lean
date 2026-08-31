@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.InternalLinearAction
+
+#print axioms BooleanAntichainsKernel.mapInternalDecomposition_trans
+#print axioms BooleanAntichainsKernel.orderedInternalMulAction
+#print axioms BooleanAntichainsKernel.mapInternalDecomposition_finrank
+#print axioms BooleanAntichainsKernel.sizedInternalMulAction

@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.BasisChoiceBijection
+
+#print axioms BooleanAntichainsKernel.basisChoiceToBase_injective
+#print axioms BooleanAntichainsKernel.basisChoiceToBase_surjective
+#print axioms BooleanAntichainsKernel.basisChoicesEquivBases
+#print axioms BooleanAntichainsKernel.basisChoicesEquivBases_class_index

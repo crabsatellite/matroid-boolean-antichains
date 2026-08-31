@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.GraphComponentMonotonicity
+
+#print axioms BooleanAntichainsKernel.graphReachable_le_of_edges
+#print axioms BooleanAntichainsKernel.graphWalkComponentMap
+#print axioms BooleanAntichainsKernel.graphWalkComponentMap_surjective
+#print axioms BooleanAntichainsKernel.graphComponentCount_antitone
+#print axioms BooleanAntichainsKernel.graphForest_exists_connecting_edge

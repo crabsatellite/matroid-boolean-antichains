@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.MultigraphShortCycles
+
+#print axioms BooleanAntichainsKernel.graphLoopWalk_isCycle
+#print axioms BooleanAntichainsKernel.graphParallelWalk_isCycle
+#print axioms BooleanAntichainsKernel.GraphEdgeForest.no_loops
+#print axioms BooleanAntichainsKernel.GraphEdgeForest.link_ne
+#print axioms BooleanAntichainsKernel.GraphEdgeForest.unique_edge
+#print axioms BooleanAntichainsKernel.GraphEdgeForest.ends_injOn

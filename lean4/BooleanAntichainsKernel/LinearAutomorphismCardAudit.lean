@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.LinearAutomorphismCard
+
+#print axioms BooleanAntichainsKernel.generalLinearCard_product
+#print axioms BooleanAntichainsKernel.generalLinearCard_zero
+#print axioms BooleanAntichainsKernel.matrixGLMulEquivAut
+#print axioms BooleanAntichainsKernel.linearAutomorphism_card

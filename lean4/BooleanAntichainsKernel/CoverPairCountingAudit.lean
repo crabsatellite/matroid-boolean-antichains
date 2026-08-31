@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.CoverPairCounting
+
+#print axioms BooleanAntichainsKernel.coveringPartnerEquivPowersetCard
+#print axioms BooleanAntichainsKernel.card_covering_partners
+#print axioms BooleanAntichainsKernel.sum_covering_partners_by_card

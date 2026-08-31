@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.PartitionBellCount
+
+#print axioms BooleanAntichainsKernel.finitePartitionTotalCount_zero
+#print axioms BooleanAntichainsKernel.nonemptyFinsetSubtype_sum
+#print axioms BooleanAntichainsKernel.finitePartitionTotalCount_eq_bell
+#print axioms BooleanAntichainsKernel.finitePartition_card_bell

@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.UniformAllFormula
+
+#print axioms BooleanAntichainsKernel.uniformBlockData_count_by_profile
+#print axioms BooleanAntichainsKernel.uniformOn_all_size_formula
+#print axioms BooleanAntichainsKernel.uniform_all_size_formula

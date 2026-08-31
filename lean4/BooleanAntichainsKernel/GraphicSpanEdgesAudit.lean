@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.GraphicSpanEdges
+
+#print axioms BooleanAntichainsKernel.graphSpanAtomEdge_injective
+#print axioms BooleanAntichainsKernel.graphMaximumSpanEdges_mem
+#print axioms BooleanAntichainsKernel.graphMaximumSpanEdges_class
+#print axioms BooleanAntichainsKernel.graphMaximumSpanEdges_weight
+#print axioms BooleanAntichainsKernel.graphic_weighted_parallel_edge_expansion
+#print axioms BooleanAntichainsKernel.graphic_spanningForestPolynomial_parallel_edge_expansion

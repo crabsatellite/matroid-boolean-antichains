@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.PartitionInsertBijection
+
+#print axioms BooleanAntichainsKernel.partitionInsertEquiv
+#print axioms BooleanAntichainsKernel.partitionInsertEquiv_apply
+#print axioms BooleanAntichainsKernel.partitionInsertEquiv_symm
+#print axioms BooleanAntichainsKernel.partitionInsert_none_class_surjective
+#print axioms BooleanAntichainsKernel.partitionInsert_some_class_surjective
+#print axioms BooleanAntichainsKernel.partitionInsertPoint_card_none
+#print axioms BooleanAntichainsKernel.partitionInsertPoint_card_some

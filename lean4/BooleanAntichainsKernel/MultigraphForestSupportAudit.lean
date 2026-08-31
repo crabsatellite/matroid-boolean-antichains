@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.MultigraphForestSupport
+
+#print axioms BooleanAntichainsKernel.graphSupportAdj_of_link
+#print axioms BooleanAntichainsKernel.graphWalkToSupport_support
+#print axioms BooleanAntichainsKernel.graphWalkToSupport_edges
+#print axioms BooleanAntichainsKernel.graphWalkToSupport_isCycle
+#print axioms BooleanAntichainsKernel.graphEdgeForest_iff_support

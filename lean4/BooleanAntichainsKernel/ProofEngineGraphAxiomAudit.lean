@@ -1,0 +1,15 @@
+import BooleanAntichainsKernel.ProofEngineGraphProof
+
+#print axioms BooleanAntichainsKernel.proofEngineFullHeightEdge
+#print axioms BooleanAntichainsKernel.proofEngineMaximumBijectionEdge
+#print axioms BooleanAntichainsKernel.proofEngineWeightedEdge
+#print axioms BooleanAntichainsKernel.proofEngineIntervalEdge
+#print axioms BooleanAntichainsKernel.proofEngineClosedFamiliesEdge
+#print axioms BooleanAntichainsKernel.proofEngineSizeTwoEdge
+#print axioms BooleanAntichainsKernel.proofEngineDistributiveEdge
+#print axioms BooleanAntichainsKernel.proofEngineSubspaceEdge
+#print axioms BooleanAntichainsKernel.proofEngineGlobalEdge
+#print axioms BooleanAntichainsKernel.proofEngineUniformAllEdge
+#print axioms BooleanAntichainsKernel.proofEngineProductEdge
+#print axioms BooleanAntichainsKernel.proofEngineProjectivePlaneEdge
+#print axioms BooleanAntichainsKernel.proofEngineAssemblyEdge

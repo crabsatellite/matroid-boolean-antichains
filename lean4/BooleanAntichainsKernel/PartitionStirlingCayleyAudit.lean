@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.PartitionStirlingCayley
+
+#print axioms BooleanAntichainsKernel.partitionBlockTree_count
+#print axioms BooleanAntichainsKernel.partitionRankTight_stirling_cayley
+#print axioms BooleanAntichainsKernel.partitionMaximum_isRankTight
+#print axioms BooleanAntichainsKernel.partitionMaximumEquivRankTight
+#print axioms BooleanAntichainsKernel.partitionMaximum_count
+#print axioms BooleanAntichainsKernel.partition_rank_tight_formula
+#print axioms BooleanAntichainsKernel.partition_fin_maximum_count

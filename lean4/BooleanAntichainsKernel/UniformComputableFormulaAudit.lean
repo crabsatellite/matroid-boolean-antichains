@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.UniformComputableFormula
+
+#print axioms BooleanAntichainsKernel.uniformProfileEquivBounded
+#print axioms BooleanAntichainsKernel.uniformAdmissibleProfile_sum_eq_bounded
+#print axioms BooleanAntichainsKernel.uniform_count_eq_bounded

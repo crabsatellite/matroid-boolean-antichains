@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.ProductEmbeddingData
+
+#print axioms BooleanAntichainsKernel.coveredActivePairsEquivProductEmbedding
+#print axioms BooleanAntichainsKernel.coveredActivePairsEquivSigma
+#print axioms BooleanAntichainsKernel.productEmbedding_count_cover

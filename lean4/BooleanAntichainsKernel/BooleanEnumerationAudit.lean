@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.BooleanEnumeration
+
+#print axioms BooleanAntichainsKernel.booleanLattice_choose_le_stirling
+#print axioms BooleanAntichainsKernel.booleanLattice_nonRankTight_count
+#print axioms BooleanAntichainsKernel.booleanLattice_enumeration

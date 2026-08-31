@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.CompleteLabelledGraph
+
+#print axioms BooleanAntichainsKernel.completeLabelledGraph_isLink
+#print axioms BooleanAntichainsKernel.completeLabelledGraph_edge_mem
+#print axioms BooleanAntichainsKernel.completeLabelledGraph_no_loops
+#print axioms BooleanAntichainsKernel.completeLabelledGraph_unique_edge
+#print axioms BooleanAntichainsKernel.completeGraphVertexEquiv
+#print axioms BooleanAntichainsKernel.completeLabelledGraph_reachable
+#print axioms BooleanAntichainsKernel.completeLabelledGraph_vertex_ncard

@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.PartitionPairsInitial45
+
+#print axioms BooleanAntichainsKernel.partitionPairCount_four
+#print axioms BooleanAntichainsKernel.partitionPairCount_five

@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.ProjectiveBasisCounting
+
+#print axioms BooleanAntichainsKernel.projectiveBasis_labelling_count
+#print axioms BooleanAntichainsKernel.projectiveBasis_count_by_frames
+#print axioms BooleanAntichainsKernel.projectiveBasis_product_natCast
+#print axioms BooleanAntichainsKernel.projectiveBasis_product
+#print axioms BooleanAntichainsKernel.standardProjectiveBasis_product

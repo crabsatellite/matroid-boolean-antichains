@@ -1,0 +1,10 @@
+import BooleanAntichainsKernel.PartitionFlatRank
+
+#print axioms BooleanAntichainsKernel.completeSetoidComponentQuotientEquiv
+#print axioms BooleanAntichainsKernel.completeSetoidComponentQuotientEquiv_mk
+#print axioms BooleanAntichainsKernel.completeLabelledGraph_matroid_rank
+#print axioms BooleanAntichainsKernel.partitionFlatComponentsEquivBlocks
+#print axioms BooleanAntichainsKernel.partitionFlat_component_count
+#print axioms BooleanAntichainsKernel.partitionFlat_rank_add_blocks
+#print axioms BooleanAntichainsKernel.partitionFlat_rank
+#print axioms BooleanAntichainsKernel.partitionFlat_hasCorank_iff

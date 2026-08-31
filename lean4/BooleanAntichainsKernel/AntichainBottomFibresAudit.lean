@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.AntichainBottomFibres
+
+#print axioms BooleanAntichainsKernel.bottomAntichainOrderIsoEquiv
+#print axioms BooleanAntichainsKernel.forgetUpperIntervalFamily_atoms
+#print axioms BooleanAntichainsKernel.booleanAntichainAtBottomEquivUpper
+#print axioms BooleanAntichainsKernel.booleanAntichainBottomSigmaEquiv

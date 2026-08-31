@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.DistributivePolynomial
+
+#print axioms BooleanAntichainsKernel.distributive_polynomial_identity
+#print axioms BooleanAntichainsKernel.filterIntersectionIndependenceCoeff_eq_graph_coeff

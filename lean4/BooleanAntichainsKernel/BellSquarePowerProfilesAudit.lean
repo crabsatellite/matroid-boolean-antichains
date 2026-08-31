@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.BellSquarePowerProfiles
+
+#print axioms BooleanAntichainsKernel.bellSquarePowerTerm_zero_of_not_positive
+#print axioms BooleanAntichainsKernel.bellSquarePower_sum_filter
+#print axioms BooleanAntichainsKernel.bellSquarePower_positiveAntidiag_sum
+#print axioms BooleanAntichainsKernel.bellSquarePowerTerm_profile
+#print axioms BooleanAntichainsKernel.bellSquareEGF_coeff_pow_profiles

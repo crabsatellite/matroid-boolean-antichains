@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.InternalOrbitCount
+
+#print axioms BooleanAntichainsKernel.internalStabilizer_card
+#print axioms BooleanAntichainsKernel.internalProfile_count_mul
+#print axioms BooleanAntichainsKernel.sizedInternal_count_of_profile
+#print axioms BooleanAntichainsKernel.sizedInternal_count_of_profile_rational

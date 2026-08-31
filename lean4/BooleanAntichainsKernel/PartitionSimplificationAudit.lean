@@ -1,0 +1,9 @@
+import BooleanAntichainsKernel.PartitionSimplification
+
+#print axioms BooleanAntichainsKernel.partitionSimplificationEdgeEquiv
+#print axioms BooleanAntichainsKernel.partitionSimplificationLabel_injective
+#print axioms BooleanAntichainsKernel.partitionSimplificationLabel_range
+#print axioms BooleanAntichainsKernel.partition_simplification_eq_comap
+#print axioms BooleanAntichainsKernel.partitionContraction_loops_empty
+#print axioms BooleanAntichainsKernel.partition_simplification_class
+#print axioms BooleanAntichainsKernel.partition_simplification_class_nonempty

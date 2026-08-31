@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.MultigraphForestInsert
+
+#print axioms BooleanAntichainsKernel.graphEdgeForest_insert
+#print axioms BooleanAntichainsKernel.graphEdgeForest_augment

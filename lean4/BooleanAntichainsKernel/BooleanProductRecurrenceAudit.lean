@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.BooleanProductRecurrence
+
+#print axioms BooleanAntichainsKernel.sum_product_with_booleanOne
+#print axioms BooleanAntichainsKernel.product_booleanOne_recurrence

@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.IncidencePlaneTriples
+
+#print axioms BooleanAntichainsKernel.plane_triple_line_unique
+#print axioms BooleanAntichainsKernel.planeLineTripleEquiv
+#print axioms BooleanAntichainsKernel.planeTriple_partition_card
+#print axioms BooleanAntichainsKernel.plane_collinearTriple_count
+#print axioms BooleanAntichainsKernel.plane_noncollinearTriple_count
+#print axioms BooleanAntichainsKernel.incidencePlane_three_count

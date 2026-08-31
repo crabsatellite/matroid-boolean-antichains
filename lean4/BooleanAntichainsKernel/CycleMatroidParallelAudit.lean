@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.CycleMatroidParallel
+
+#print axioms BooleanAntichainsKernel.cycleMatroid_mem_parallelClass_iff
+#print axioms BooleanAntichainsKernel.cycleMatroid_parallelClass_eq
+#print axioms BooleanAntichainsKernel.cycleMatroid_singleton_closure_eq_iff

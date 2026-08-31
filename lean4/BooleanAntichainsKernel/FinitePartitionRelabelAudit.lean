@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.FinitePartitionRelabel
+
+#print axioms BooleanAntichainsKernel.finitePartitionRelabel_parts
+#print axioms BooleanAntichainsKernel.finitePartitionRelabelEquiv
+#print axioms BooleanAntichainsKernel.finitePartitionRelabel_card
+#print axioms BooleanAntichainsKernel.finitePartitionRelabel_same_block
+#print axioms BooleanAntichainsKernel.partitionsWithBlocksRelabelEquiv
+#print axioms BooleanAntichainsKernel.partitionsWithBlocks_relabel_count

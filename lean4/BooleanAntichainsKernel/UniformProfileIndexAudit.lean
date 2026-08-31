@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.UniformProfileIndex
+
+#print axioms BooleanAntichainsKernel.uniformProfileBoundedCode_injective
+#print axioms BooleanAntichainsKernel.blockAvailableGround_card
+#print axioms BooleanAntichainsKernel.fixedBottom_blocks_count

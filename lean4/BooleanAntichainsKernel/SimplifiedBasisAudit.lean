@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.SimplifiedBasis
+
+#print axioms BooleanAntichainsKernel.rank_one_flat_has_representative
+#print axioms BooleanAntichainsKernel.rank_one_representatives_isBase
+#print axioms BooleanAntichainsKernel.representative_face_rank

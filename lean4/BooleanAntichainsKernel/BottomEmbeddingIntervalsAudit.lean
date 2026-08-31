@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.BottomEmbeddingIntervals
+
+#print axioms BooleanAntichainsKernel.topEmbeddingAtBottomEquivIci
+#print axioms BooleanAntichainsKernel.topEmbeddingBottomSigmaEquiv
+#print axioms BooleanAntichainsKernel.topEmbedding_bottom_coatom_meet

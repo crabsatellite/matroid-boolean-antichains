@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.SimplificationBases
+
+#print axioms BooleanAntichainsKernel.actual_simplification_isBase_iff
+#print axioms BooleanAntichainsKernel.simplifiedBasisEquivActualMatroidBases
+#print axioms BooleanAntichainsKernel.maximumAntichain_count_eq_tutte

@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.GraphicForestBijectionAtoms
+
+#print axioms BooleanAntichainsKernel.graphicGroundSpanEdge_mem
+#print axioms BooleanAntichainsKernel.graphicMaximumAntichainEquivForests_ground_val
+#print axioms BooleanAntichainsKernel.graphicMaximumAntichainEquivForests_val
+#print axioms BooleanAntichainsKernel.graphMaximumSpanEdges_spanningForest
+#print axioms BooleanAntichainsKernel.graphMaximumSpanEdges_card

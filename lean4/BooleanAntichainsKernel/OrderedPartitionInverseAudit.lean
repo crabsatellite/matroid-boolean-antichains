@@ -1,0 +1,11 @@
+import BooleanAntichainsKernel.OrderedPartitionInverse
+
+#print axioms BooleanAntichainsKernel.profiledBlocks_injective
+#print axioms BooleanAntichainsKernel.profiledBlocks_cover
+#print axioms BooleanAntichainsKernel.profiledBlocks_existsUnique
+#print axioms BooleanAntichainsKernel.profiledBlocksPartition_parts
+#print axioms BooleanAntichainsKernel.profiledBlocksPartition_card
+#print axioms BooleanAntichainsKernel.profiledBlocksEnumeration
+#print axioms BooleanAntichainsKernel.orderedPartitionToProfiledBlocks_injective
+#print axioms BooleanAntichainsKernel.orderedPartitionToProfiledBlocks_surjective
+#print axioms BooleanAntichainsKernel.orderedPartitionEquivProfiledBlocks

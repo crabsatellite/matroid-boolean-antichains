@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.FreeMatroid
+
+#print axioms BooleanAntichainsKernel.freeOnUnivFlatOrderIsoFinset
+#print axioms BooleanAntichainsKernel.freeOn_contract_eq
+#print axioms BooleanAntichainsKernel.freeOn_flat_rank
+#print axioms BooleanAntichainsKernel.freeOn_actual_simplification_basis_count
+#print axioms BooleanAntichainsKernel.freeOn_contraction_simplifiedBasis_count

@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.UniformCorank
+
+#print axioms BooleanAntichainsKernel.uniformOn_hasCorank_iff
+#print axioms BooleanAntichainsKernel.uniformOnCorankEquivPowersetCard
+#print axioms BooleanAntichainsKernel.uniformOn_corankFlat_count
+#print axioms BooleanAntichainsKernel.rankTight_count_zero

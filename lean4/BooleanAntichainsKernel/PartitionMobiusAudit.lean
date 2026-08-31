@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.PartitionMobius
+
+#print axioms BooleanAntichainsKernel.finitePartition_top_parts
+#print axioms BooleanAntichainsKernel.finitePartition_strict_block_count
+#print axioms BooleanAntichainsKernel.partitionCandidate_sum_Icc
+#print axioms BooleanAntichainsKernel.finitePartition_mu_top
+#print axioms BooleanAntichainsKernel.finitePartition_mu_top_formula

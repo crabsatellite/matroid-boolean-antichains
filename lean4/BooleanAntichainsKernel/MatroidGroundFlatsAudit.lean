@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.MatroidGroundFlats
+
+#print axioms BooleanAntichainsKernel.matroidGround_closure
+#print axioms BooleanAntichainsKernel.matroidGroundFlatOrderIso
+#print axioms BooleanAntichainsKernel.matroidGroundFlatOrderIso_val
+#print axioms BooleanAntichainsKernel.matroidGroundFlatOrderIso_symm_val
+#print axioms BooleanAntichainsKernel.matroidGround_rank
+#print axioms BooleanAntichainsKernel.matroidGroundFlatOrderIso_rank

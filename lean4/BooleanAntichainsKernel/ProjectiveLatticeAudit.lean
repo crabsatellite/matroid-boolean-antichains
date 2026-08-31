@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.ProjectiveLattice
+
+#print axioms BooleanAntichainsKernel.projectiveSubspaceOrderIso
+#print axioms BooleanAntichainsKernel.projectiveSubspaceOrderIso_mem
+#print axioms BooleanAntichainsKernel.projectiveSubspaceOrderIso_symm_mem
+#print axioms BooleanAntichainsKernel.projectiveAntichainEquiv
+#print axioms BooleanAntichainsKernel.projectiveAntichainEquiv_val
+#print axioms BooleanAntichainsKernel.projectiveAntichainEquiv_atoms

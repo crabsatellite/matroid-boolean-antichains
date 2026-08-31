@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.MultigraphForestEdges
+
+#print axioms BooleanAntichainsKernel.forestEdgesEquivSupport
+#print axioms BooleanAntichainsKernel.forestEdgesEquivSupport_apply
+#print axioms BooleanAntichainsKernel.forest_edge_ncard
+#print axioms BooleanAntichainsKernel.GraphEdgeForest.finite

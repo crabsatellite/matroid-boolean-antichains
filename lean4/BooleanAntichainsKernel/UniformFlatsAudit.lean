@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.UniformFlats
+
+#print axioms BooleanAntichainsKernel.uniformOn_closure
+#print axioms BooleanAntichainsKernel.uniformOn_isFlat_iff
+#print axioms BooleanAntichainsKernel.uniformOn_properFlat_iff
+#print axioms BooleanAntichainsKernel.uniformOn_rank

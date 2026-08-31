@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.SpanAtoms
+
+#print axioms BooleanAntichainsKernel.isTupleSpanAtom_iff
+#print axioms BooleanAntichainsKernel.isSpanAtom_iff_mem_antichainAtoms
+#print axioms BooleanAntichainsKernel.spanAtomFinset_eq_antichainAtoms

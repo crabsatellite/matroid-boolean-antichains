@@ -1,0 +1,8 @@
+import BooleanAntichainsKernel.ProjectiveIndependentSets
+
+#print axioms BooleanAntichainsKernel.projectiveIndependent_reindex_iff
+#print axioms BooleanAntichainsKernel.forgetOrderedProjective
+#print axioms BooleanAntichainsKernel.projectiveSetToInternal_val
+#print axioms BooleanAntichainsKernel.projectiveBasisEquivInternal
+#print axioms BooleanAntichainsKernel.projectiveBasisEquivInternal_lines
+#print axioms BooleanAntichainsKernel.projectiveBasisEquivInternal_symm_lines

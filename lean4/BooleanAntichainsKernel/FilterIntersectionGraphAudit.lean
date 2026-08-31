@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.FilterIntersectionGraph
+
+#print axioms BooleanAntichainsKernel.filterGraph_independent_iff_disjoint
+#print axioms BooleanAntichainsKernel.booleanAntichainEquivGraphIndependent
+#print axioms BooleanAntichainsKernel.distributive_count_eq_graph_independent

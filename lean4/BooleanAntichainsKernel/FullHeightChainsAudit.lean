@@ -1,0 +1,4 @@
+import BooleanAntichainsKernel.FullHeightChains
+
+#print axioms BooleanAntichainsKernel.full_height_rigidity
+#print axioms BooleanAntichainsKernel.full_height_span_maxChain

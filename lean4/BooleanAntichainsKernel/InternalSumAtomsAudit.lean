@@ -1,0 +1,5 @@
+import BooleanAntichainsKernel.InternalSumAtoms
+
+#print axioms BooleanAntichainsKernel.bottomEmbeddingAtoms_iSupIndep
+#print axioms BooleanAntichainsKernel.bottomEmbeddingToInternal
+#print axioms BooleanAntichainsKernel.bottomEmbeddingEquivInternal

@@ -1,0 +1,7 @@
+import BooleanAntichainsKernel.FullHeight
+
+#print axioms BooleanAntichainsKernel.boolean_full_rank_faces
+#print axioms BooleanAntichainsKernel.full_height_commonMeet_eq_bot
+#print axioms BooleanAntichainsKernel.full_height_atom_grade
+#print axioms BooleanAntichainsKernel.full_height_coatom_grade
+#print axioms BooleanAntichainsKernel.full_height_cover

@@ -1,0 +1,6 @@
+import BooleanAntichainsKernel.PartitionBlockRecurrence
+
+#print axioms BooleanAntichainsKernel.partition_card_subtype_indicator
+#print axioms BooleanAntichainsKernel.partitionInsertStratumEquiv
+#print axioms BooleanAntichainsKernel.partitionInsert_fibre_card
+#print axioms BooleanAntichainsKernel.partition_blocks_option_succ

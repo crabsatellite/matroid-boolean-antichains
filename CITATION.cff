@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper and the software release."
+title: "Boolean Antichains in Finite Lattices: Complete Classification, Product Structure, and Matroid Applications"
+version: 1.0.0
+date-released: 2026-08-31
+authors:
+  - family-names: Li
+    given-names: Alex Chengyu
+    orcid: "https://orcid.org/0009-0008-4516-8946"
+doi: "10.5281/zenodo.22168871"
+repository-code: "https://github.com/crabsatellite/matroid-boolean-antichains"
+url: "https://github.com/crabsatellite/matroid-boolean-antichains"
+license: Apache-2.0
