@@ -8,10 +8,12 @@
 - Local file: `references/garber-et-al-2608.27126v1.pdf`.
 - SHA-256:
   `97B0C8E119057D411055C9ECB1A1B6432E452C561D2FE95535F5AC5FB80876BB`.
-- Remark 3.7 expects the partition-lattice bijection to extend from complete
+- Remark 4.5 expects the partition-lattice bijection to extend from complete
   graphs to lattices of flats of arbitrary graphs and spanning trees.
-- Section 5 separately asks whether Boolean antichains can be constructed
-  and counted in geometric lattices.
+- Question 6.1 separately asks whether Boolean antichains can be constructed
+  and counted in geometric, distributive, or modular lattices. The paper
+  answers this general-lattice subquestion; the distinct Tamari-recursion and
+  lattice-congruence parts of Question 6.1 remain separate.
 
 ## Prior boundary
 

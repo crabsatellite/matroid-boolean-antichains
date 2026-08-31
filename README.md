@@ -11,6 +11,11 @@ a finite matroid.  Resolve the source paper's expected graphic bijection
 without silently assuming connectivity, simplicity, or the absence of
 parallel edges.
 
+This answers Remark 4.5 of Garber--Goltermann--Horiatakis--Koenig--Gottesman
+and the geometric/distributive/modular-lattice construction part of their
+Question 6.1. The separate Tamari-recursion and lattice-congruence questions
+in Question 6.1 are outside this paper's scope.
+
 ## Candidate strengthening
 
 Maximum Boolean antichains are identified with bases of the simplification.
