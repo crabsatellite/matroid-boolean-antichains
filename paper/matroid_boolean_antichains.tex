@@ -23,11 +23,11 @@
 \newcommand{\qbinom}[2]{\genfrac{[}{]}{0pt}{}{#1}{#2}_q}
 
 \title{Boolean Antichains in Finite Lattices\\
-Complete Classification, Product Structure, and Matroid Applications}
+Product Formulas and Matroid Applications}
 \author{Alex Chengyu Li}
-\date{31 August 2026}
+\date{8 September 2026}
 \hypersetup{
-  pdftitle={Boolean Antichains in Finite Lattices: Complete Classification, Product Structure, and Matroid Applications},
+  pdftitle={Boolean Antichains in Finite Lattices: Product Formulas and Matroid Applications},
   pdfauthor={Alex Chengyu Li}
 }
 
@@ -35,27 +35,26 @@ Complete Classification, Product Structure, and Matroid Applications}
 \maketitle
 
 \begin{abstract}
-Garber, Goltermann, Horiatakis, K\"onig, and Gottesman asked for
-constructions and counts of Boolean antichains in geometric lattices and
-proposed a spanning-tree correspondence for graphic matroids.  We answer the
-graphic expectation and the general-lattice construction question in greater
-generality by classifying Boolean antichains of every size in every finite
-lattice.  For an ordered family, intersecting all but one
-member produces candidate Boolean atoms.  The family is Boolean precisely
-when those atoms rise above the common meet and all $2^k$ reconstruction
-height gaps vanish.  This gives an exact finite formula for the complete
-enumerator.  Its binomial transform is multiplicative under lattice products,
-equivalently giving an explicit positive convolution.
+We study the enumeration of Boolean antichains in finite lattices through
+product formulas and matroid correspondences.  The binomial transform of the
+labelled Boolean-antichain counts is multiplicative under lattice products,
+yielding an explicit positive convolution for every size.  For a rank-$r$
+matroid, maximum Boolean antichains in its flat lattice are naturally in
+bijection with bases of the simplification.  This inverse correspondence
+extends the known Boolean span of a basis and proves the spanning-tree
+expectation of Garber, Goltermann, Horiatakis, K\"onig, and Gottesman in the
+connected simple graphic case.
 
-For a rank-$r$ matroid, maximum Boolean antichains in the flat lattice are
-naturally in bijection with bases of the simplification.  For graphs this
-gives spanning forests and specializes to the proposed spanning-tree
-bijection in the connected simple case.  Retaining parallel classes recovers
-the multivariate basis polynomial, while flat intervals give minor-local and
-rank-tight versions.  The framework also yields explicit all-size formulas
-for uniform matroids, complete classifications for finite distributive and
-subspace lattices, a universal M\"obius formula for Boolean pairs, and
-complete distributions for finite projective planes.
+The framework gives explicit all-size counts for uniform matroids and finite
+subspace lattices.  Parallel-class weights recover the multivariate basis
+polynomial, and flat intervals give minor-local and rank-tight versions.
+For an arbitrary finite lattice, an exact recognition criterion tests whether
+the candidate Boolean atoms rise above the common meet and all $2^k$
+reconstruction height gaps vanish.  Summing these tests over ordered tuples
+gives the complete enumerator, while the structured families above admit
+more compact evaluations.  Further consequences include a disjoint-filter
+interpretation for distributive lattices, a universal M\"obius formula for
+Boolean pairs, and complete distributions for finite projective planes.
 \end{abstract}
 
 \section{Introduction}
@@ -76,30 +75,13 @@ graphic matroid of $K_n$, they expected the construction to extend to an
 arbitrary graph and its spanning trees.  They also asked more generally for
 constructions and counts in geometric lattices.
 Corollary~\ref{cor:graphic} answers Remark~4.5 of their paper, while
-Theorem~\ref{thm:global-gap} answers the geometric, distributive, and modular
-lattice-construction part of their Question~6.1~\cite{GarberEtAl2026}.  The distinct Tamari-recursion
-and lattice-congruence problems in Question~6.1 remain outside the present
-scope.
+Theorem~\ref{thm:global-gap} gives a uniform recognition criterion for the
+finite-lattice families named in Question~6.1~\cite{GarberEtAl2026}.  The
+product formula and the explicit family counts develop the enumerative side
+of this question.  The separate Tamari-recursion and lattice-congruence
+questions remain open here.
 
-The main result is lattice-wide.  Given an ordered tuple
-$\mathbf H=(H_1,\ldots,H_k)$, let $X_{\mathbf H}$ be its common meet and let
-$A_i(\mathbf H)$ be the meet of all entries except $H_i$.  For
-$S\subseteq[k]$, compare the join of the $A_i$ with $i\in S$ to the meet of
-the complementary $H_j$.  The former always lies below the latter.  Their
-height difference is the reconstruction gap $\gamma_{\mathbf H}(S)$.
-Theorem~\ref{thm:global-gap} proves that $\mathbf H$ orders a Boolean
-antichain precisely when every $A_i$ rises above $X_{\mathbf H}$ and every
-reconstruction gap vanishes.  Consequently,
-\[
- |\cC_k(L)|=\frac1{k!}
- \sum_{\mathbf H\in L^k}
- \prod_i\mathbf 1_{\{\lht_L A_i(\mathbf H)>\lht_L X_{\mathbf H}\}}
- \prod_{S\subseteq[k]}\mathbf 1_{\{\gamma_{\mathbf H}(S)=0\}}.
-\]
-Thus the complete enumerator is determined for every finite lattice, without
-a distributivity, modularity, or grading hypothesis.
-
-The second structural result describes products.  If
+Our first enumerative result describes products.  If
 $c_k(L)=|\cC_k(L)|$ and
 \[
  \eta_k(L)=\sum_{a=0}^k\binom ka a!c_a(L),
@@ -138,6 +120,25 @@ The same statement holds in every flat interval through the minor
 $(M|Y)/X$, yielding the rank-tight classification by contraction bases.  The
 global height-gap theorem supplies all remaining layers, whose face ranks are
 strict integral polymatroid ranks.
+
+A general recognition criterion connects these applications across finite lattices.  Given an ordered tuple
+$\mathbf H=(H_1,\ldots,H_k)$, let $X_{\mathbf H}$ be its common meet and let
+$A_i(\mathbf H)$ be the meet of all entries except $H_i$.  For
+$S\subseteq[k]$, compare the join of the $A_i$ with $i\in S$ to the meet of
+the complementary $H_j$.  The former always lies below the latter.  Their
+height difference is the reconstruction gap $\gamma_{\mathbf H}(S)$.
+Theorem~\ref{thm:global-gap} proves that $\mathbf H$ orders a Boolean
+antichain precisely when every $A_i$ rises above $X_{\mathbf H}$ and every
+reconstruction gap vanishes.  Consequently,
+\[
+ |\cC_k(L)|=\frac1{k!}
+ \sum_{\mathbf H\in L^k}
+ \prod_i\mathbf 1_{\{\lht_L A_i(\mathbf H)>\lht_L X_{\mathbf H}\}}
+ \prod_{S\subseteq[k]}\mathbf 1_{\{\gamma_{\mathbf H}(S)=0\}}.
+\]
+This is an exhaustive finite sum over candidate tuples, with $2^k$ face tests
+per tuple.  It applies without distributivity, modularity, or grading; the
+product law and the family formulas provide its more compact evaluations.
 
 Several families admit more compact evaluations.  Boolean pairs have a
 universal M\"obius formula; finite distributive lattices are described by
@@ -595,7 +596,9 @@ when they have nonempty intersection.  Write
 \[
  I(\Gamma_P;t)=\sum_{k\ge0}i_k(\Gamma_P)t^k
 \]
-for its independence polynomial.
+for its independence polynomial.  The following description follows from the
+pairwise-top-join criterion of Garber et al.\ \cite[Lemma~2.4]{GarberEtAl2026}
+by complementation; the proof recalls their distributivity argument.
 
 \begin{theorem}[Distributive-lattice classification]\label{thm:distributive}
 % formal-claim-begin: thm-distributive-bijection
@@ -1183,7 +1186,7 @@ set of $r$ independent projective points.  Hence
 
 \section{Scope of the matroid correspondences}
 
-The global classification is unconditional for finite lattices.  Its matroid
+The global recognition criterion applies to every finite lattice.  Its matroid
 correspondences take particularly precise forms.
 
 \paragraph{Parallel classes.}
@@ -1201,7 +1204,7 @@ Corollary~\ref{cor:graphic}.
 
 \medskip\noindent\textbf{Off-diagonal layers.}\par\noindent
 Contraction bases characterize the rank-tight diagonal.  The global
-classification also includes smaller non-rank-tight Boolean antichains.  In
+criterion also detects smaller non-rank-tight Boolean antichains.  In
 $U_{3,4}$, for example, the two flats
 \[
  \{1,2\},\qquad\{3,4\}
@@ -1256,6 +1259,8 @@ implementation.  The framework is described in \emph{Proof Engine
 Infrastructure}~\cite{LiProofEngine2026}.  The author reviewed and edited the
 resulting material and assumes full responsibility for the definitions,
 statements, proofs, citations, code, and exposition.
+An overview of the Proof Engine research programme and related results is
+available at \href{https://crabresearch.com/research/mathematics?lang=en}{Crab Research}.
 \endgroup
 
 \begingroup
@@ -1263,4 +1268,6 @@ statements, proofs, citations, code, and exposition.
 \bibliographystyle{plain}
 \bibliography{references}
 \endgroup
+\medskip\noindent{\footnotesize First publicly available: 30 August 2026.
+Paper archive: \href{https://doi.org/10.5281/zenodo.22168871}{doi:10.5281/zenodo.22168871}.}
 \end{document}

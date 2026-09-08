@@ -1,7 +1,10 @@
-# Boolean Antichains in Finite Lattices: A Height-Gap Classification with Matroid Applications
+# Boolean Antichains in Finite Lattices: Product Formulas and Matroid Applications
 
-This is the canonical internal project for the geometric-lattice extension
-suggested in Garber--Goltermann--Horiatakis--Koenig--Gottesman,
+This repository contains the paper and its Lean formalization. The paper is
+available at [SSRN](https://doi.org/10.2139/ssrn.7378778) and in its
+[Zenodo archive](https://doi.org/10.5281/zenodo.22168871).
+It develops product formulas and matroid correspondences for the enumeration
+of Boolean antichains, addressing questions in Garber--Goltermann--Horiatakis--Koenig--Gottesman,
 *Counting Boolean antichains*, arXiv:2608.27126v1.
 
 ## Exact target
@@ -16,7 +19,7 @@ and the geometric/distributive/modular-lattice construction part of their
 Question 6.1. The separate Tamari-recursion and lattice-congruence questions
 in Question 6.1 are outside this paper's scope.
 
-## Candidate strengthening
+## Results
 
 Maximum Boolean antichains are identified with bases of the simplification.
 Retaining parallel-class multiplicities gives an exact decomposition of the
