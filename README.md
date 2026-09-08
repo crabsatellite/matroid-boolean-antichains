@@ -55,13 +55,14 @@ The exact regression entry point is
 
 ## Public artifacts
 
-The first public version was deposited on Zenodo on 30 August 2026.  Cite the
-stable Concept DOI
-[`10.5281/zenodo.22168871`](https://doi.org/10.5281/zenodo.22168871).
+The paper's preferred scholarly citation is
+[SSRN 7378778](https://doi.org/10.2139/ssrn.7378778). The first public
+version was deposited on Zenodo on 30 August 2026; use the stable
+[Concept DOI](https://doi.org/10.5281/zenodo.22168871) for the archive and its versions.
 
 The current paper, Lean~4 source, theorem map, verification instructions, and
 finite regression scripts are published at
 [`crabsatellite/matroid-boolean-antichains`](https://github.com/crabsatellite/matroid-boolean-antichains).
 The public paper record retains the same Concept DOI across versions. Earlier
 versions remain immutable historical records; the Concept DOI is the stable
-outward-facing citation.
+outward-facing archive link.
